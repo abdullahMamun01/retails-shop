@@ -6,7 +6,7 @@ export const cartReducer = (state, action) => {
       if (find) {
         return state.map((item) =>
           //checking for user request from wishlist button
-          (item.id === action.payload.id && action.payload.quantity != 1)
+          item.id === action.payload.id && action.payload.quantity != 1
             ? { ...item, quantity: action.payload.quantity }
             : item
         );
@@ -17,6 +17,9 @@ export const cartReducer = (state, action) => {
 
     case "REMOVE_FROM_CART":
       return state.filter((item) => item.id !== action.payload);
+
+    case "CLEAR_CART":
+      return [];
 
     default:
       return state;

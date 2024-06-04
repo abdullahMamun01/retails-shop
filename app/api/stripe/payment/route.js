@@ -23,8 +23,8 @@ export async function POST(req) {
         quantity: item.quantity,
       })),
       mode: "payment",
-      success_url: "http://localhost:3000/en/checkout/payment?session_id={CHECKOUT_SESSION_ID}",
-      cancel_url: "http://localhost:3000/en/checkout/payment",
+      success_url: "http://localhost:3000/checkout/payment?session_id={CHECKOUT_SESSION_ID}",
+      cancel_url: "http://localhost:3000/checkout/payment",
    
         metadata: {
           shipping: JSON.stringify(shipping),

@@ -11,9 +11,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import InputControl from './InputControl';
-import { useFormContext } from '@/hooks/useFormContext';
 import { useRouter } from 'next/navigation';
-import { doPayment } from '@/app/actions';
 import { loadStripe } from '@stripe/stripe-js';
 
 const formSchema = z.object({
@@ -41,7 +39,7 @@ const initialState  = {
 
 function PlaceOrderForm() {
     const session = useSession()
-   
+   const router = useRouter()
     const form = useForm({
         resolver: zodResolver(formSchema),
         defaultValues: initialState
@@ -77,6 +75,12 @@ function PlaceOrderForm() {
 
     const { cart } = useCart()
 
+    if(!cart.length){
+        router.push('/account')
+        return
+      }
+
+
     const onSubmit = async (formData) => {
         const key =
         "pk_test_51PMl2t05X6ShhpbB03LroPjRrT1SMea5f9YJzYUHWBspOCYOLFGYFbJZmdwHYhsTwdlE401n734B3KlCnmMKUsAU00MVBMYT6k";
@@ -100,6 +104,9 @@ function PlaceOrderForm() {
           });
        
     }
+
+   
+
 
     return (
         <Form {...form}>

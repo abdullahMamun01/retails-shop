@@ -41,27 +41,3 @@ export async function updateShippingAddress(formData) {
 export async function updateBillingAddress(formData) {
   await updateAddressGeneric(formData, "billing");
 }
-
-export async function doPayment( products,stripe) {
-
-  try {
-    const body = {
-      products,
-    };
-    const response = await fetch("http://localhost:3000/api/stripe/payment", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(body),
-    });
-    if (!response.ok) {
-      throw Error("payment error");
-    }
-    const session = await response.json();
-    //now we can call pdf send api request on the server if payment success
-    await stripe.redirectToCheckout({
-      sessionId: session.sessionId,
-    });
-  } catch (error) {
-    console.log(error.message , ' from do payment')
-  }
-}

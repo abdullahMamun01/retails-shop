@@ -71,7 +71,7 @@ export const getAllProducts = async ({ category, min, max, search }) => {
   if (category) {
     // Assuming `category` is an array of categories
     // filter.category = { $in: category.split("|") };
-    filter.$or = [...filter.$or, { category: category.split("|") }];
+    filter.$or = [ { category: category.split("|") }];
   }
 
   if (min) {

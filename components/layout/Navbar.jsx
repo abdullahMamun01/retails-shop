@@ -49,14 +49,14 @@ export default async function Navbar() {
                 <div className="flex items-center justify-between flex-grow md:pl-12 py-5">
                     <div className="flex items-center space-x-6 capitalize">
                         <Link href="/" className="text-gray-200 hover:text-white transition">Home</Link>
-                        <Link href="/en/shop" className="text-gray-200 hover:text-white transition">Shop</Link>
+                        <Link href="/shop" className="text-gray-200 hover:text-white transition">Shop</Link>
                         <Link href="/" className="text-gray-200 hover:text-white transition">About us</Link>
                         <Link href="/" className="text-gray-200 hover:text-white transition">Contact us</Link>
                     </div>
                     {
                         session?.user?.name ? <Logout />
                             :
-                            <Link href="/en/login" className="text-gray-200 hover:text-white transition">Login</Link>
+                            <Link href="/login" className="text-gray-200 hover:text-white transition">Login</Link>
                     }
 
 

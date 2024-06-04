@@ -36,7 +36,7 @@ export default function BreadCrump() {
                 <BreadcrumbPage className="text-gray-600 font-bold">{breadcrumb.breadcrumb}</BreadcrumbPage>
                 :
                 <>
-                  <BreadcrumbLink className="text-sky-600 font-bold" href={`/en/${breadcrumb.breadcrumb.toLowerCase()}`}>{breadcrumb.breadcrumb}</BreadcrumbLink>
+                  <BreadcrumbLink className="text-sky-600 font-bold" href={`/${breadcrumb.breadcrumb.toLowerCase()}`}>{breadcrumb.breadcrumb}</BreadcrumbLink>
                   <BreadcrumbSeparator className="mx-2">
                     <SlashIcon />
                   </BreadcrumbSeparator>

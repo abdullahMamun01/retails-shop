@@ -20,7 +20,7 @@ export default function SearchSuggestion({ suggest }) {
 
                         {
                             suggest?.map(({ _id, name }) => <CommandItem key={_id}>
-                                <Link href={`/en/product/${_id}`}>
+                                <Link href={`/product/${_id}`}>
                                     {name}
                                 </Link>
 

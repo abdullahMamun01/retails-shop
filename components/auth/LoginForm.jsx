@@ -3,6 +3,7 @@ import { login } from '@/app/actions'
 import { useRouter } from 'next/navigation'
 
 import React from 'react'
+import toast from 'react-hot-toast'
 
 export default function LoginForm() {
 
@@ -19,6 +20,7 @@ export default function LoginForm() {
             }
 
             if(response.ok){
+                toast.success('Login successful');
                 router.push('/')
             }
         } catch (error) {

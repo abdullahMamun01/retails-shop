@@ -12,11 +12,18 @@ export default function PaymentSuccess() {
 const searchParams = useSearchParams()  
   const params = new URLSearchParams(searchParams)
   const router = useRouter()
+  const {cart , dispatch} = useCart()
   // console.log(params.get("session_id"))
   const sessionId = params.get("session_id")
   const {data: {user}} = useSession()
-console.log(user.id)
+
   useEffect(() => {
+    if(!cart.length){
+      router.push('/account')
+      return
+    }
+    
+
     const invoiceSend = async () =>{
       try {
           const response = await fetch(`/api/stripe/success` ,{
@@ -32,9 +39,9 @@ console.log(user.id)
             throw Error('failed to send invoice!')
           }
           if(response.ok){
-
+            dispatch({type: "CLEAR_CART"})
             setTimeout(() => {
-              router.push('/en/shop')
+              router.push('/shop')
             }, 5000)
           }
       } catch (error) {

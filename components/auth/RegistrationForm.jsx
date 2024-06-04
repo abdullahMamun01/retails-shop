@@ -1,6 +1,7 @@
 'use client'
 
 import { useRouter } from "next/navigation";
+import toast from "react-hot-toast";
 
 export default function RegistrationForm() {
     const router = useRouter();
@@ -30,7 +31,8 @@ export default function RegistrationForm() {
             });
 
             if(res.ok){
-                router.push('/en/login')
+                router.push('/login')
+                toast.success("Registration has completed")
             }
 
         } catch (e) {

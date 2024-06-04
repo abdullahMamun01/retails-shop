@@ -10,7 +10,7 @@ export default async function LoginPage() {
   const session = await auth()
 
   if(session?.user?.name){
-    redirect('/en/shop')
+    redirect('/shop')
     return
   }
 
@@ -34,7 +34,7 @@ export default async function LoginPage() {
 
         <p className="mt-4 text-center text-gray-600">
           Do not have account? {' '}
-          <Link href="/en/register" className="text-primary">
+          <Link href="/register" className="text-primary">
             Register now
           </Link>
         </p>

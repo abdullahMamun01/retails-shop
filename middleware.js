@@ -3,10 +3,10 @@ import { authConfig } from "./auth.config";
 import { NextResponse } from "next/server";
 
 const publicRoutes = [
-  '/en/login',
-  '/en/register',
-  '/en/shop' ,
-  '/api/auth/callback/google',
+  '/login',
+  '/register',
+  '/shop' ,
+  '/auth/callback/google',
   '/'
   
 ]
@@ -25,7 +25,7 @@ export default auth((req) => {
   
 
   if (!isAuthenticate && !isPublic)
-    return Response.redirect(new URL("/en/login", nextUrl));
+    return Response.redirect(new URL("/login", nextUrl));
 
   else NextResponse.next()
 });

@@ -67,7 +67,7 @@ export default function Cart({ cart }) {
                 </div>
 
                 <div className="w-full min-w-0 flex-1 space-y-4 md:order-2 md:max-w-md">
-                    <Link href={`/en/product/${cart?.id}`} className="text-base font-medium text-gray-900 hover:underline dark:text-white">{cart?.name}</Link>
+                    <Link href={`/product/${cart?.id}`} className="text-base font-medium text-gray-900 hover:underline dark:text-white">{cart?.name}</Link>
 
                     <div className="flex items-center gap-4">
 
