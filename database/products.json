@@ -1,0 +1,401 @@
+[
+    {
+      "name": "Modern Sofa",
+      "description": "A comfortable modern sofa perfect for any living room.",
+      "category": "Living Room",
+      "brand": "ComfortHome",
+      "price": 899.99,
+      "quantity": 10,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 120,
+      "images": ["https://m.media-amazon.com/images/I/81bBHB1daoL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91vh5ZdvSVL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/712oFmkcRwL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/712wM5gCkXL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/81bBHB1daoL._AC_SL1500_.jpg",
+      "tags": ["sofa", "modern", "living room"],
+      "variants": [
+        { "sku": "MODSOF001", "size": "Large", "color": "Gray", "price": 899.99 ,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant1.jpg" },
+        { "sku": "MODSOF002", "size": "Medium", "color": "Blue", "price": 799.99,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant2.jpg" }
+      ],
+      "reviews": [] ,
+      "createdAt": "2024-03-20T09:30:00Z",
+       "updatedAt": "2024-03-21T08:15:00Z"
+    },
+    {
+      "name": "Elegant Coffee Table",
+      "description": "An elegant coffee table made from oak wood.",
+      "category": "Living Room",
+      "brand": "OakCraft",
+      "price": 299.99,
+      "quantity": 15,
+      "inStock": true,
+      "discountPercentage": 8,
+      "totalRatings": 120,
+      "images": ["https://m.media-amazon.com/images/I/71k8NdCLtlL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/71NW6KEoqzL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/71NW6KEoqzL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/71ApghIVjQL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71k8NdCLtlL._AC_SL1500_.jpg",
+      "tags": ["coffee table", "elegant", "oak"],
+      "variants": [
+        { "sku": "ELECOT001", "size": "Standard", "color": "Natural", "price": 299.99,  "discountPercentage": 8, "quantity": 15, "inStock": true, "image": "path/to/image2_variant1.jpg" }
+      ],
+      "reviews": [] ,
+      "createdAt": "2024-03-18T14:20:00Z", "updatedAt": "2024-03-19T10:45:00Z"
+    },
+    {
+      "name": "Rustic Dining Table",
+      "description": "A rustic dining table perfect for family gatherings.",
+      "category": "Dining Room",
+      "brand": "RusticElegance",
+      "price": 1299.99,
+      "quantity": 8,
+      "inStock": true,
+      "discountPercentage": 15,
+      "totalRatings": 220,
+      "images": ["https://m.media-amazon.com/images/I/81cBAc41ENL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/91rLEPwxDPL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/81cBAc41ENL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/81cBAc41ENL._AC_SL1500_.jpg",
+      "tags": ["dining table", "rustic", "family"],
+      "variants": [
+        { "sku": "RUSTDIN001", "size": "Large", "color": "Brown", "price": 1299.99, "quantity": 5,  "discountPercentage": 10, "inStock": true, "image": "path/to/image3_variant1.jpg" },
+        { "sku": "RUSTDIN002", "size": "Medium", "color": "Dark Brown", "price": 1199.99, "quantity": 3 ,  "discountPercentage": 10, "inStock": true, "image": "path/to/image3_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-10T11:05:00Z", "updatedAt": "2024-04-11T06:40:00Z" 
+    },
+    {
+      "name": "Comfortable Armchair",
+      "description": "A comfortable armchair for your reading nook.",
+      "category": "Living Room",
+      "brand": "CozyNest",
+      "price": 499.99,
+      "quantity": 20,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 50,
+      "images": ["https://m.media-amazon.com/images/I/71nzGQc6bgL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/71nzGQc6bgL._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/91P0c6T3XZL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/91P0c6T3XZL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71nzGQc6bgL._AC_SL1500_.jpg",
+      "tags": ["armchair", "comfortable", "living room"],
+      "variants": [
+        { "sku": "COMARM001", "size": "Standard", "color": "Beige", "price": 499.99, "quantity": 10,"discountPercentage": 10, "inStock": true, "image": "path/to/image4_variant1.jpg" },
+        { "sku": "COMARM002", "size": "Standard", "color": "Green", "price": 499.99, "quantity": 10,"discountPercentage": 10, "inStock": true, "image": "path/to/image4_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-03T16:55:00Z", "updatedAt": "2024-04-04T13:25:00Z" 
+    },
+    {
+      "name": "Classic Wooden Bed",
+      "description": "A classic wooden bed frame for a traditional bedroom.",
+      "category": "Bedroom",
+      "brand": "WoodClassics",
+      "price": 1599.99,
+      "quantity": 12,
+      "inStock": true,
+      "discountPercentage": 0.10,
+      "totalRatings": 150,
+      "images": ["https://m.media-amazon.com/images/I/817Szhb5dVL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/61mW1nMXtoL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/817Szhb5dVL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/817Szhb5dVL._AC_SL1500_.jpg",
+      "tags": ["bed", "wooden", "classic"],
+      "variants": [
+        { "sku": "CLASBED001", "size": "King", "color": "Mahogany", "price": 1599.99, "quantity": 6,  "discountPercentage": 10, "inStock": true, "image": "path/to/image5_variant1.jpg" },
+        { "sku": "CLASBED002", "size": "Queen", "color": "Oak", "price": 1499.99, "quantity": 6,  "discountPercentage": 10, "inStock": true, "image": "path/to/image5_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-26T12:10:00Z", "updatedAt": "2024-03-27T07:50:00Z"
+    },
+    {
+      "name": "Minimalist Bookshelf",
+      "description": "A minimalist bookshelf to organize your books and decor.",
+      "category": "Living Room",
+      "brand": "ModernLiving",
+      "price": 199.99,
+      "quantity": 25,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 150,
+      "images": ["https://m.media-amazon.com/images/I/71TRZuq7z7L._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/81y5XF8FNlL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/71TRZuq7z7L._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/71TRZuq7z7L._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71TRZuq7z7L._AC_SL1500_.jpg",
+      "tags": ["bookshelf", "minimalist", "storage"],
+      "variants": [
+        { "sku": "MINBOOK001", "size": "Tall", "color": "White", "price": 199.99, "quantity": 15,    "discountPercentage": 10, "inStock": true, "image": "path/to/image6_variant1.jpg" },
+        { "sku": "MINBOOK002", "size": "Short", "color": "Black", "price": 179.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image6_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-14T09:45:00Z", "updatedAt": "2024-04-15T04:30:00Z"
+    },
+    {
+      "name": "Luxury Recliner",
+      "description": "A luxury recliner for ultimate comfort and relaxation.",
+      "category": "Living Room",
+      "brand": "ComfortLuxury",
+      "price": 999.99,
+      "quantity": 10,
+      "inStock": true,
+      "images": ["https://m.media-amazon.com/images/I/91BOMsg0MgL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/81O3fazIJvS._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91BOMsg0MgL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/91BOMsg0MgL._AC_SL1500_.jpg",
+      "tags": ["recliner", "luxury", "comfort"],
+      "variants": [
+        { "sku": "LUXREC001", "size": "Standard", "color": "Black", "price": 999.99, "quantity": 5,     "discountPercentage": 10,"inStock": true, "image": "path/to/image7_variant1.jpg" },
+        { "sku": "LUXREC002", "size": "Standard", "color": "Brown", "price": 999.99, "quantity": 5,    "discountPercentage": 10, "inStock": true, "image": "path/to/image7_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-22T17:20:00Z", "updatedAt": "2024-03-23T12:00:00Z"
+    },
+    {
+      "name": "Modern Dining Chair",
+      "description": "A set of modern dining chairs to complement your dining table.",
+      "category": "Dining Room",
+      "brand": "ModernComfort",
+      "price": 149.99,
+      "quantity": 30,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 250,
+      "images": ["https://m.media-amazon.com/images/I/71D84i94s8L._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/818GrEAZWML._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/71D84i94s8L._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71D84i94s8L._AC_SL1500_.jpg",
+      "tags": ["dining chair", "modern", "set"],
+      "variants": [
+        { "sku": "MODCHAIR001", "size": "Standard", "color": "Gray", "price": 149.99, "quantity": 15,    "discountPercentage": 10, "inStock": true, "image": "path/to/image8_variant1.jpg" },
+        { "sku": "MODCHAIR002", "size": "Standard", "color": "White", "price": 149.99, "quantity": 15,    "discountPercentage": 10, "inStock": true, "image": "path/to/image8_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-08T14:35:00Z", "updatedAt": "2024-04-09T10:10:00Z"
+    },
+    {
+      "name": "Vintage Chest of Drawers",
+      "description": "A vintage chest of drawers for stylish storage.",
+      "category": "Bedroom",
+      "brand": "VintageStyle",
+      "price": 599.99,
+      "quantity": 8,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 350,
+      "images": ["https://m.media-amazon.com/images/I/71q9rTOyHEL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/71zOmXrBz8L._AC_SL1000_.jpg", "https://m.media-amazon.com/images/I/71zOmXrBz8L._AC_SL1000_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71q9rTOyHEL._AC_SL1500_.jpg",
+      "tags": ["chest of drawers", "vintage", "storage"],
+      "variants": [
+        { "sku": "VINTCHEST001", "size": "Large", "color": "Antique White", "price": 599.99, "quantity": 4,    "discountPercentage": 10, "inStock": true, "image": "path/to/image9_variant1.jpg" },
+        { "sku": "VINTCHEST002", "size": "Medium", "color": "Walnut", "price": 499.99, "quantity": 4,     "discountPercentage": 10,"inStock": true, "image": "path/to/image9_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-17T08:40:00Z", "updatedAt": "2024-04-18T05:25:00Z" 
+    },
+    {
+      "name": "Industrial TV Stand",
+      "description": "An industrial-style TV stand for your entertainment setup.",
+      "category": "Living Room",
+      "brand": "UrbanHome",
+      "price": 399.99,
+      "quantity": 20,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 150,
+      "images": ["https://m.media-amazon.com/images/I/810QQp4VpEL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/81dGTU-UefL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/810QQp4VpEL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/810QQp4VpEL._AC_SL1500_.jpg",
+      "tags": ["tv stand", "industrial", "living room"],
+      "variants": [
+        { "sku": "INDTV001", "size": "Large", "color": "Black", "price": 399.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image10_variant1.jpg" },
+        { "sku": "INDTV002", "size": "Medium", "color": "Gray", "price": 349.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image10_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-30T11:15:00Z", "updatedAt": "2024-03-31T07:00:00Z"
+    },
+    {
+      "name": "Compact Nightstand",
+      "description": "A compact nightstand with a minimalist design.",
+      "category": "Bedroom",
+      "brand": "SimpleLiving",
+      "price": 129.99,
+      "quantity": 25,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 180,
+      "images": ["https://m.media-amazon.com/images/I/81Swz-GfSiL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91Ci-Ijk6hL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/81Swz-GfSiL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/81Swz-GfSiL._AC_SL1500_.jpg",
+      "tags": ["nightstand", "compact", "minimalist"],
+      "variants": [
+        { "sku": "COMNST001", "size": "Standard", "color": "White", "price": 129.99, "quantity": 15,    "discountPercentage": 10,"inStock": true, "image": "path/to/image11_variant1.jpg" },
+        { "sku": "COMNST002", "size": "Standard", "color": "Black", "price": 129.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image11_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-05T13:25:00Z", "updatedAt": "2024-04-06T09:05:00Z"
+    },
+    {
+      "name": "Classic Bookshelf",
+      "description": "A classic bookshelf for displaying your books and decor.",
+      "category": "Living Room",
+      "brand": "ClassicHome",
+      "price": 249.99,
+      "quantity": 20,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 50,
+      "images": ["https://m.media-amazon.com/images/I/41I9IVrq+QL._AC_SL1250_.jpg","https://m.media-amazon.com/images/I/812hPiKxHLL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/41I9IVrq+QL._AC_SL1250_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/41I9IVrq+QL._AC_SL1250_.jpg",
+      "tags": ["bookshelf", "classic", "storage"],
+      "variants": [
+        { "sku": "CLASBOOK001", "size": "Tall", "color": "Brown", "price": 249.99, "quantity": 12,     "discountPercentage": 10,"inStock": true, "image": "path/to/image12_variant1.jpg" },
+        { "sku": "CLASBOOK002", "size": "Short", "color": "White", "price": 229.99, "quantity": 8,    "discountPercentage": 10, "inStock": true, "image": "path/to/image12_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-19T10:50:00Z", "updatedAt": "2024-04-20T06:30:00Z"
+    },
+    {
+      "name": "Elegant Bedside Lamp",
+      "description": "An elegant bedside lamp to enhance your bedroom.",
+      "category": "Bedroom",
+      "brand": "LightElegance",
+      "price": 99.99,
+      "quantity": 40,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 20,
+      "images": ["https://m.media-amazon.com/images/I/91Lp9dibsXL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/91yvMBy+--L._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91Lp9dibsXL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/91Lp9dibsXL._AC_SL1500_.jpg",
+      "tags": ["bedside lamp", "elegant", "lighting"],
+      "variants": [
+        { "sku": "ELEGLAMP001", "size": "Standard", "color": "White", "price": 99.99, "quantity": 20,    "discountPercentage": 10, "inStock": true, "image": "path/to/image13_variant1.jpg" },
+        { "sku": "ELEGLAMP002", "size": "Standard", "color": "Gray", "price": 99.99, "quantity": 20,     "discountPercentage": 10,"inStock": true, "image": "path/to/image13_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-24T15:00:00Z", "updatedAt": "2024-03-25T10:40:00Z" 
+    },
+    {
+      "name": "Leather Ottoman",
+      "description": "A leather ottoman that doubles as a storage unit.",
+      "category": "Living Room",
+      "brand": "LuxLeather",
+      "price": 199.99,
+      "quantity": 15,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 10,
+      "images": ["https://m.media-amazon.com/images/I/71wJ940+duL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/71s9kQxvKzL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/910FLVqULuL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/71wJ940+duL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71wJ940+duL._AC_SL1500_.jpg",
+      "tags": ["ottoman", "leather", "storage"],
+      "variants": [
+        { "sku": "LEATOT001", "size": "Standard", "color": "Black", "price": 199.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image14_variant1.jpg" },
+        { "sku": "LEATOT002", "size": "Standard", "color": "Brown", "price": 199.99, "quantity": 5,    "discountPercentage": 10, "inStock": true, "image": "path/to/image14_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-12T12:05:00Z", "updatedAt": "2024-04-13T07:45:00Z"
+    },
+    {
+      "name": "Adjustable Desk",
+      "description": "An adjustable desk for your home office.",
+      "category": "Office",
+      "brand": "OfficeFlex",
+      "price": 499.99,
+      "quantity": 10,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 30,
+      "images": ["https://m.media-amazon.com/images/I/61QGkkxvG1L._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/810KmvgSASL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/61QGkkxvG1L._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/61QGkkxvG1L._AC_SL1500_.jpg",
+      "tags": ["desk", "adjustable", "office"],
+      "variants": [
+        { "sku": "ADJDESK001", "size": "Standard", "color": "White", "price": 499.99, "quantity": 5,    "discountPercentage": 10, "inStock": true, "image": "path/to/image15_variant1.jpg" },
+        { "sku": "ADJDESK002", "size": "Standard", "color": "Black", "price": 499.99, "quantity": 5,    "discountPercentage": 10, "inStock": true, "image": "path/to/image15_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-01T09:20:00Z", "updatedAt": "2024-04-02T04:55:00Z" 
+    },
+    {
+      "name": "Modern Side Table",
+      "description": "A modern side table for your living room or bedroom.",
+      "category": "Living Room",
+      "brand": "ModernDesign",
+      "price": 149.99,
+      "quantity": 30,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 40,
+      "images": ["https://m.media-amazon.com/images/I/71v7cCI1BZL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/816apNqjKQL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/81xFYmy+6ZL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/81xFYmy+6ZL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/71v7cCI1BZL._AC_SL1500_.jpg",
+      "tags": ["side table", "modern", "living room"],
+      "variants": [
+        { "sku": "MODSIDE001", "size": "Standard", "color": "White", "price": 149.99, "quantity": 15,    "discountPercentage": 10, "inStock": true, "image": "path/to/image16_variant1.jpg" },
+        { "sku": "MODSIDE002", "size": "Standard", "color": "Black", "price": 149.99, "quantity": 15,     "discountPercentage": 10,"inStock": true, "image": "path/to/image16_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-31T12:40:00Z", "updatedAt": "2024-04-01T08:20:00Z"
+    },
+    {
+      "name": "Cozy Armchair",
+      "description": "A cozy armchair for relaxing in your living room.",
+      "category": "Living Room",
+      "brand": "ComfortZone",
+      "price": 549.99,
+      "quantity": 15,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 80,
+      "images": ["https://m.media-amazon.com/images/I/91pd+mi3HfL._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/712ZnsNDqHL._AC_SL1201_.jpg", "https://m.media-amazon.com/images/I/91pd+mi3HfL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/91pd+mi3HfL._AC_SL1500_.jpg",
+      "tags": ["armchair", "cozy", "living room"],
+      "variants": [
+        { "sku": "COZYCHAIR001", "size": "Standard", "color": "Beige", "price": 549.99, "quantity": 10,    "discountPercentage": 10, "inStock": true, "image": "path/to/image17_variant1.jpg" },
+        { "sku": "COZYCHAIR002", "size": "Standard", "color": "Gray", "price": 549.99, "quantity": 5,    "discountPercentage": 10, "inStock": true, "image": "path/to/image17_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-28T14:30:00Z", "updatedAt": "2024-03-29T09:15:00Z" 
+    },
+    {
+      "name": "Luxury Bed Frame",
+      "description": "A luxury bed frame to elevate your bedroom decor.",
+      "category": "Bedroom",
+      "brand": "LuxuryHome",
+      "price": 1799.99,
+      "quantity": 8,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 90,
+      "images": ["https://m.media-amazon.com/images/I/81rAOtpT35L._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/71U4R5ElFQL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/81rAOtpT35L._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/81rAOtpT35L._AC_SL1500_.jpg",
+      "tags": ["bed frame", "luxury", "bedroom"],
+      "variants": [
+        { "sku": "LUXBED001", "size": "King", "color": "White", "price": 1799.99, "quantity": 4,    "discountPercentage": 10, "inStock": true, "image": "path/to/image18_variant1.jpg" },
+        { "sku": "LUXBED002", "size": "Queen", "color": "Gray", "price": 1699.99, "quantity": 4,     "discountPercentage": 10,"inStock": true, "image": "path/to/image18_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-15T16:45:00Z", "updatedAt": "2024-04-16T11:20:00Z"
+    },
+    {
+      "name": "Vintage Dining Table",
+      "description": "A vintage dining table with a timeless design.",
+      "category": "Dining Room",
+      "brand": "TimelessDesign",
+      "price": 1399.99,
+      "quantity": 6,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 50,
+      "images": ["https://m.media-amazon.com/images/I/91d3bwwkV1L._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/71WU0jVSYML._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/818my2dOBYL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91d3bwwkV1L._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/91d3bwwkV1L._AC_SL1500_.jpg",
+      "tags": ["dining table", "vintage", "timeless"],
+      "variants": [
+        { "sku": "VINTDT001", "size": "Large", "color": "Brown", "price": 1399.99, "quantity": 3,    "discountPercentage": 10, "inStock": true, "image": "path/to/image19_variant1.jpg" },
+        { "sku": "VINTDT002", "size": "Medium", "color": "Dark Brown", "price": 1299.99, "quantity": 3,    "discountPercentage": 10, "inStock": true, "image": "path/to/image19_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-03-23T10:10:00Z", "updatedAt": "2024-03-24T05:00:00Z" 
+    },
+    {
+      "name": "Stylish Wardrobe",
+      "description": "A stylish wardrobe to keep your clothes organized.",
+      "category": "Bedroom",
+      "brand": "StyleHome",
+      "price": 1199.99,
+      "quantity": 12,
+      "inStock": true,
+      "discountPercentage": 10,
+      "totalRatings": 20,
+      "images": ["https://m.media-amazon.com/images/I/81nAtR+GpmL._AC_SL1500_.jpg" ,"https://m.media-amazon.com/images/I/81aJDdmVPdL._AC_SL1500_.jpg","https://m.media-amazon.com/images/I/61p6EymR5JL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/81nAtR+GpmL._AC_SL1500_.jpg"],
+      "thumbnail": "https://m.media-amazon.com/images/I/81nAtR+GpmL._AC_SL1500_.jpg",
+      "tags": ["wardrobe", "stylish", "storage"],
+      "variants": [
+        { "sku": "STYWAR001", "size": "Large", "color": "White", "price": 1199.99, "quantity": 6,    "discountPercentage": 10, "inStock": true, "image": "path/to/image20_variant1.jpg" },
+        { "sku": "STYWAR002", "size": "Medium", "color": "Gray", "price": 1099.99, "quantity": 6,    "discountPercentage": 10, "inStock": true, "image": "path/to/image20_variant2.jpg" }
+      ],
+      "reviews": [],
+      "createdAt": "2024-04-09T08:55:00Z", "updatedAt": "2024-04-10T03:35:00Z"
+    }
+  ]
+  
