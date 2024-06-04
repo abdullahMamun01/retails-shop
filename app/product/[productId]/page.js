@@ -3,10 +3,30 @@ import RelatedProductList from "@/components/product/RelatedProductList";
 import { getRelatedProducts, getSingleProduct } from "@/database/queries";
 import React from "react";
 
+export async function generateMetadata({ params:{productId} }, parent) {
+
+  const product =  await getSingleProduct(productId) 
+
+  const previousImages = (await parent).openGraph?.images[0] || [];
+  return {
+      title: product?.name,
+      description: product?.description.slice(0, 100),
+      openGraph: {
+          images: [
+              {
+                  url: product?.images[0],
+                  width: 1200,
+                  height: 600,
+              }
+          ],
+      },
+  };
+}
+
+
+
 export default async function SingleProduct({params : {productId}}) {
   const product = await getSingleProduct(productId)
-
-
 
   return (
     <div>
