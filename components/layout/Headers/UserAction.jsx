@@ -9,16 +9,20 @@ export default function UserAction() {
   return (
     <div className="flex items-center space-x-4">
       <Link href="/wishlist" className="text-center text-gray-700 hover:text-primary transition relative">
-        <WishlistIcon/>
+        <WishlistIcon />
       </Link>
       <Link href="/cart" className="text-center text-gray-700 hover:text-primary transition relative">
-        <ShoppingCart/>
+        <ShoppingCart />
       </Link>
-      <Link href="/" className="text-center text-gray-700 hover:text-primary transition relative">
+      <Link href="/account" className="text-center text-gray-700 hover:text-primary transition relative">
         <div className="text-2xl">
-          <User/>
+          <User />
         </div>
-        <div className="text-xs leading-3">Account</div>
+        <div className="text-xs leading-3">
+          <Link href="/account">
+            Account
+          </Link>
+        </div>
       </Link>
     </div>
   )

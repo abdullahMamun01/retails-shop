@@ -12,7 +12,7 @@ export default async function BillingAddress() {
     const session = await auth()
     const user = await getUser(session.user.id)
     const billing = user?.billing
-    console.log(session)
+
     return (
         <div className="shadow rounded bg-white px-4 pt-6 pb-8">
             <div className="flex items-center justify-between mb-4">

@@ -6,19 +6,19 @@ const QuantitySelector = ({ productId }) => {
     const initialQuantity = 1 
     const minQuantity = 1 
     const maxQuantity = 10
-    console.log(productId)
+
   const [quantity, setQuantity] = useState(initialQuantity);
-    const {cart,dispatch} = useCart()
+    const {dispatch} = useCart()
 
 
   const incrementQuantity = () => {
     if (quantity < maxQuantity) {
       setQuantity(quantity + 1);
-      console.log(productId , " from")
+
       dispatch({type: "INCREMENT_QUANTITY" ,payload: productId})
     }
   };
-  console.log(cart)
+
   const decrementQuantity = () => {
     if (quantity > minQuantity) {
       setQuantity(quantity - 1);

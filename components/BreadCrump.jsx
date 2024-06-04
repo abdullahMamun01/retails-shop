@@ -26,7 +26,7 @@ export default function BreadCrump() {
   }, [pathname]);
 
   return (
-    <div className="container py-4 flex items-center gap-3">
+    <div className="container py-4 flex items-center gap-3 my-2">
       <Breadcrumb className="list-none">
 
         {breadcrumbs.slice(1).map((breadcrumb, index) => (

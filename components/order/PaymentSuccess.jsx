@@ -13,7 +13,7 @@ const searchParams = useSearchParams()
   const params = new URLSearchParams(searchParams)
   const router = useRouter()
   const {cart , dispatch} = useCart()
-  // console.log(params.get("session_id"))
+
   const sessionId = params.get("session_id")
   const {data: {user}} = useSession()
 

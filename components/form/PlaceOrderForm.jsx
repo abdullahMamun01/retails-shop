@@ -55,7 +55,7 @@ function PlaceOrderForm() {
                 }
                 if (data) {
                     const shipping = data.shipping
-                    console.log(shipping, ' data')
+                  
                     form.reset({
                         address: shipping.streetAddress,
                         city: shipping.city,

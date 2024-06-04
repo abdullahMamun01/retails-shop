@@ -6,7 +6,7 @@ import { useCart } from '@/hooks/useCart'
 
 export default function CartItems() {
     const {cart:carts} = useCart()
-    console.log(carts)
+   
     return (
        <div>
         {
