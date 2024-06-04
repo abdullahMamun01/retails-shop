@@ -42,8 +42,7 @@ $RECYCLE.BIN/
 # node-waf configuration
 .lock-wscript
 
-# dotenv environment variables file
-.env
+
 
 # npm debug log
 npm-debug.log*
