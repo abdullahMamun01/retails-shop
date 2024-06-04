@@ -3,7 +3,7 @@ import autoTable from 'jspdf-autotable'
 
 
 export const generatePDF = (orderDetails) => {
-  const subTotal = orderDetails.reduce((acc,pd) => acc + pd.price , 0)
+  const subTotal = orderDetails.reduce((acc,pd) => acc + pd.amount , 0)
   const doc = new jsPDF();
   const skyColor = [38, 53, 93]; // RGB for sky blue
   doc.setFillColor(...skyColor);

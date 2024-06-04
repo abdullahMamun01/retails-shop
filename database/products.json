@@ -16,6 +16,7 @@
         { "sku": "MODSOF001", "size": "Large", "color": "Gray", "price": 899.99 ,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant1.jpg" },
         { "sku": "MODSOF002", "size": "Medium", "color": "Blue", "price": 799.99,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant2.jpg" }
       ],
+      "sizes": ["3-seater", "Sectional", "Recliner"],
       "reviews": [] ,
       "createdAt": "2024-03-20T09:30:00Z",
        "updatedAt": "2024-03-21T08:15:00Z"
@@ -37,6 +38,7 @@
         { "sku": "ELECOT001", "size": "Standard", "color": "Natural", "price": 299.99,  "discountPercentage": 8, "quantity": 15, "inStock": true, "image": "path/to/image2_variant1.jpg" }
       ],
       "reviews": [] ,
+      "sizes": ["2-seater", "Sleeper Sofa", "Futon"],
       "createdAt": "2024-03-18T14:20:00Z", "updatedAt": "2024-03-19T10:45:00Z"
     },
     {
@@ -56,6 +58,7 @@
         { "sku": "RUSTDIN001", "size": "Large", "color": "Brown", "price": 1299.99, "quantity": 5,  "discountPercentage": 10, "inStock": true, "image": "path/to/image3_variant1.jpg" },
         { "sku": "RUSTDIN002", "size": "Medium", "color": "Dark Brown", "price": 1199.99, "quantity": 3 ,  "discountPercentage": 10, "inStock": true, "image": "path/to/image3_variant2.jpg" }
       ],
+      "sizes": ["3-seater", "Armchair", "Loveseat"],
       "reviews": [],
       "createdAt": "2024-04-10T11:05:00Z", "updatedAt": "2024-04-11T06:40:00Z" 
     },

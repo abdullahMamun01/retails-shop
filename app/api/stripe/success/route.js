@@ -25,7 +25,6 @@ export async function POST(req) {
     }
     
     //product purchase items
-
     const items = listLineItems.data;
     const orderedItems = items.map((item) => ({
       name: item.description,
@@ -33,11 +32,11 @@ export async function POST(req) {
       amount: Math.floor(item.amount_total / 100),
     }));
 
-    console.log(orderedItems , ' frommmmmm')
+   
     // //save on database
     const shipping  = JSON.parse(retrieve.metadata.shipping)
+
     const totalAmount  = orderedItems.reduce((acc,pd) => acc + Number(pd.amount) , 0)
-    console.log(totalAmount)
     const order =  new Order({
         userId ,
         sessionId ,
@@ -48,17 +47,17 @@ export async function POST(req) {
     })
     const saveOrder = await order.save()
     
-    //write pdf logic to send the main
+    //generate pdf to send the mail
     const invoiceDoc = generatePDF(orderedItems , shipping);
     const pdfBuffer =  Buffer.from(invoiceDoc.output("arraybuffer"));
 
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
       port: 465,
-      secure: true, // true for 465, false for other ports
+      secure: true,
       auth: {
         user: "abdullah.mamun.0110@gmail.com",
-        pass: process.env.APP_PASS, //krof zirv zslp fcqb
+        pass: process.env.APP_PASS, 
       },
     });
 
