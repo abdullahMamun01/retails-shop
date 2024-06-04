@@ -51,7 +51,7 @@ const searchParams = useSearchParams()
 
     invoiceSend()
 
-  }, [sessionId])
+  }, [])
 
   return (
     <div className="bg-gray-100 h-screen">
