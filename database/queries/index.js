@@ -72,7 +72,7 @@ export const getAllProducts = async ({ category, min, max, search }) => {
   if (category) {
     // Assuming `category` is an array of categories
     // filter.category = { $in: category.split("|") };
-    filter.$or = [ { category: category.split("|") }];
+    filter.$or = [{ category: category.split("|") }];
   }
 
   if (min) {
@@ -139,11 +139,34 @@ export async function getUser(userId) {
   return replaceMongoIdInObject(user);
 }
 
-
 export const userOrderList = async (userId) => {
-  const findUser = await UserModel.findById(userId)
-  if(!findUser) return null 
-  const orderList = await Order.find({userId})
-  return orderList
+  const findUser = await UserModel.findById(userId);
+  if (!findUser) return null;
+  const orderList = await Order.find({ userId });
+  return orderList;
+};
 
+export const updateProductQuantity = async (orders) => {
+
+
+  if(orders.length === 0) return null
+  const bulkOperations = orders.map((order) => ({
+    updateOne: {
+      filter: { _id : order.id },
+      update: { $inc: { quantity: -order.quantity } },
+    },
+  }));
+
+  await ProductModel.bulkWrite(bulkOperations);
+};
+
+
+
+export const getOrderList = async (userId) => {
+  const user = await UserModel.findById(userId)
+  if(!user) return null
+  const orderList = await Order.find({userId : userId}).
+  select({totalAmount:1 , paymentStatus:1 , orderedItems: 1}).lean()
+  
+  return orderList
 }

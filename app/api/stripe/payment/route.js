@@ -28,8 +28,8 @@ export async function POST(req) {
       cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/checkout/payment`,
    
         metadata: {
-          shipping: JSON.stringify(shipping),
-          // products: JSON.stringify(items)
+          shipping: JSON.stringify(shipping)
+    
         },
 
     });
@@ -38,5 +38,10 @@ export async function POST(req) {
       { sessionId: session.id, ok: true },
       { status: 200 }
     );
-  } catch (error) {}
+  } catch (error) {
+    return NextResponse.json(
+      error.message,
+      { status: 500 }
+    );
+  }
 }

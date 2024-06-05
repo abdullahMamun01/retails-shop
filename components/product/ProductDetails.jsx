@@ -5,12 +5,12 @@ import CartAction from './CartAction'
 
 export default function ProductDetails({product}) {
     const discountPrice =product?.price -  Math.floor(product?.price * (product?.discountPercentage / 100))
-    console.log(product.id)
+
     return (
         <div className="container grid grid-cols-2 gap-6">
             <div>
-                <Image src={product?.thumbnail} width='300' height='300' alt={product?.name} className="w-full h-[400px]" />
-                <ProductImageGallery images={product.images} />
+                
+                <ProductImageGallery images={product?.images} name={product?.name} thumbnail={product?.thumbnail} />
             </div>
 
             <div>

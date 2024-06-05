@@ -9,7 +9,7 @@ export const replaceMongoIdInArray = (array) => {
   }
 
   export const replaceMongoIdInObject = (obj) => {
-    console.log(obj);
+
     const {_id, ...rest} = obj;
     const updatedObj = {id: _id.toString(), ...rest};
     return updatedObj;

@@ -53,9 +53,6 @@ export const GET = async (req, res , params) => {
   try {
    
 
-
-    console.log(params)
-
     // find user from database
     // const user = await UserModel.findOne({  });
     // if (!user) {

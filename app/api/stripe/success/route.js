@@ -4,11 +4,18 @@ import { UserModel } from "@/database/models/user-model";
 import { Order } from "@/database/models/payment-mode";
 import { generatePDF } from "@/utils";
 import nodemailer from "nodemailer";
+import { updateProductQuantity } from "@/database/queries";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export async function POST(req) {
-  const { sessionId, userId } = await req.json();
+  const { sessionId, userId , products } = await req.json();
+  if(!sessionId || !userId || !products){
+    return NextResponse.json('forbidden', { status: "501" });
+  
+  }
+
+  
   try {
     const listLineItems = await stripe.checkout.sessions.listLineItems(sessionId);
     const retrieve = await stripe.checkout.sessions.retrieve(sessionId);
@@ -35,8 +42,7 @@ export async function POST(req) {
    
     // //save on database
     const shipping  = JSON.parse(retrieve.metadata.shipping)
-    const products = JSON.parse(retrieve.metadata.products)
-    console.log(products , ' from success')
+
     const totalAmount  = orderedItems.reduce((acc,pd) => acc + Number(pd.amount) , 0)
     const order =  new Order({
         userId ,
@@ -47,7 +53,8 @@ export async function POST(req) {
         totalAmount
     })
     const saveOrder = await order.save()
-    
+    await updateProductQuantity(products)
+
     //generate pdf to send the mail
     const invoiceDoc = generatePDF(orderedItems , shipping);
     const pdfBuffer =  Buffer.from(invoiceDoc.output("arraybuffer"));

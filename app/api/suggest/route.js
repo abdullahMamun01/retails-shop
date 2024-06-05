@@ -37,7 +37,7 @@ export async function GET(req) {
        
       );
 
-    console.log(suggestions);
+  
     if (!suggestions)
       return NextResponse.json("suggestions not found!", { status: 404 });
     console.log("ok");

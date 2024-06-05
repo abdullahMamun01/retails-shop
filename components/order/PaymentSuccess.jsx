@@ -3,53 +3,60 @@ import { useCart } from '@/hooks/useCart'
 
 import { Check } from 'lucide-react'
 import { useSession } from 'next-auth/react'
-import {  useRouter, useSearchParams } from 'next/navigation'
-import React, { useEffect } from 'react'
+import { useRouter, useSearchParams } from 'next/navigation'
+import React, { useEffect, useRef } from 'react'
 
 
 
 export default function PaymentSuccess() {
-const searchParams = useSearchParams()  
+  const searchParams = useSearchParams()
   const params = new URLSearchParams(searchParams)
   const router = useRouter()
-  const {cart , dispatch} = useCart()
-
+  const { cart, dispatch } = useCart()
+  const hasFetched = useRef(false);
   const sessionId = params.get("session_id")
-  const {data: {user}} = useSession()
+  const { data: { user } } = useSession()
 
   useEffect(() => {
-    if(!cart.length){
+    let isFetch = false
+    if (!cart.length) {
       router.push('/account')
       return
     }
-    
 
-    const invoiceSend = async () =>{
-      try {
-          const response = await fetch(`/api/stripe/success` ,{
+
+    if (!hasFetched.current) {
+      hasFetched.current = true
+      const invoiceSend = async () => {
+        try {
+          const response = await fetch(`/api/stripe/success`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
-              sessionId : sessionId,
-              userId : user.id
+              sessionId: sessionId,
+              userId: user.id,
+              products: cart
             }),
           })
-          
-          if(!response.ok){
+
+          if (!response.ok) {
             throw Error('failed to send invoice!')
           }
-          if(response.ok){
-            dispatch({type: "CLEAR_CART"})
+          if (response.ok) {
+            dispatch({ type: "CLEAR_CART" })
             setTimeout(() => {
               router.push('/shop')
-            }, 5000)
+            }, 2000)
           }
-      } catch (error) {
-        console.log(error.message)
+        } catch (error) {
+          console.log(error.message)
+        }
       }
+
+      invoiceSend()
     }
 
-    invoiceSend()
+   
 
   }, [])
 

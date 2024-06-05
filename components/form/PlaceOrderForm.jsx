@@ -1,6 +1,6 @@
 "use client"
 import { useSession } from 'next-auth/react';
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useCart } from '@/hooks/useCart';
 import { useFormStatus } from "react-dom";
 import {
@@ -45,6 +45,8 @@ function PlaceOrderForm() {
         defaultValues: initialState
     })
 
+    const [pending, setPending] = useState(false)
+
     useEffect(() => {
         const fetchInitialData = async () => {
             try {
@@ -83,7 +85,7 @@ function PlaceOrderForm() {
     //submiting for payment
     const onSubmit = async (formData) => {
         const key = process.env.NEXT_PUBLIC_STRIPE_CLIENT_KEY;
-
+        setPending(true)
         const stripe = await loadStripe(key);
         const body = {
             products: cart,
@@ -188,9 +190,10 @@ function PlaceOrderForm() {
 
                 <button
                     type="submit"
+                    disabled={pending}
                     className="mt-2 block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
                 >
-                    payment
+                    {pending ? 'Processing payment...' : 'Payment'}
                 </button>
             </form>
 
@@ -204,16 +207,7 @@ function PlaceOrderForm() {
 export default PlaceOrderForm;
 
 
-function PaymentButton() {
-    const {pending} = useFormStatus()
-    return <button
-        type="submit"
-        disabled={pending}
-        className="mt-2 block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
-    >
-         {pending ? 'Processing payment...' : 'Payment'}
-    </button>
-}
+
 
 
 
