@@ -1,5 +1,6 @@
 import { dbConnect } from "@/services/dbConnect";
 import { UserModel } from "../models/user-model";
+import { Order } from "../models/payment-mode";
 
 const {
   replaceMongoIdInArray,
@@ -136,4 +137,13 @@ export async function getUser(userId) {
     .lean();
   if (!user) return null;
   return replaceMongoIdInObject(user);
+}
+
+
+export const userOrderList = async (userId) => {
+  const findUser = await UserModel.findById(userId)
+  if(!findUser) return null 
+  const orderList = await Order.find({userId})
+  return orderList
+
 }

@@ -1,0 +1,24 @@
+{
+    "name": "Modern Sofa",
+    "description": "A comfortable modern sofa perfect for any living room.",
+    "category": "Living Room",
+    "brand": "ComfortHome",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 120,
+    "images": ["https://m.media-amazon.com/images/I/81bBHB1daoL._AC_SL1500_.jpg" , "https://m.media-amazon.com/images/I/91vh5ZdvSVL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/712oFmkcRwL._AC_SL1500_.jpg", "https://m.media-amazon.com/images/I/712wM5gCkXL._AC_SL1500_.jpg"],
+    "thumbnail": "https://m.media-amazon.com/images/I/81bBHB1daoL._AC_SL1500_.jpg",
+    "tags": ["sofa", "modern", "living room"],
+    "variants": [
+      { "sku": "MODSOF001", "size": "Large", "color": "Gray", "price": 899.99 ,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant1.jpg" },
+      { "sku": "MODSOF002", "size": "Medium", "color": "Blue", "price": 799.99,"discountPercentage": 10, "quantity": 5, "inStock": true, "image": "path/to/image1_variant2.jpg" }
+    ],
+    "reviews": [] ,
+    "createdAt": "2024-03-20T09:30:00Z",
+     "updatedAt": "2024-03-21T08:15:00Z"
+  }
+
+
+

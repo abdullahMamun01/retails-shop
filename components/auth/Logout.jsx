@@ -15,7 +15,7 @@ export default function Logout() {
     }, [session])
 
     const handleLogout = () => {
-        signOut({ callbackUrl: "http://localhost:3000/login" })
+        signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_BASE_URL}/login` })
     }
 
 

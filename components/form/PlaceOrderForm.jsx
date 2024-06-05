@@ -2,7 +2,7 @@
 import { useSession } from 'next-auth/react';
 import React, { useEffect } from 'react'
 import { useCart } from '@/hooks/useCart';
-
+import { useFormStatus } from "react-dom";
 import {
     Form
 } from "@/components/ui/form";
@@ -26,7 +26,7 @@ const formSchema = z.object({
 
 });
 
-const initialState  = {
+const initialState = {
     firstName: '',
     lastName: '',
     company: '',
@@ -39,7 +39,7 @@ const initialState  = {
 
 function PlaceOrderForm() {
     const session = useSession()
-   const router = useRouter()
+    const router = useRouter()
     const form = useForm({
         resolver: zodResolver(formSchema),
         defaultValues: initialState
@@ -55,7 +55,7 @@ function PlaceOrderForm() {
                 }
                 if (data) {
                     const shipping = data.shipping
-                  
+
                     form.reset({
                         address: shipping.streetAddress,
                         city: shipping.city,
@@ -75,37 +75,37 @@ function PlaceOrderForm() {
 
     const { cart } = useCart()
 
-    if(!cart.length){
+    if (!cart.length) {
         router.push('/account')
         return
-      }
+    }
 
-
+    //submiting for payment
     const onSubmit = async (formData) => {
-        const key =
-        "pk_test_51PMl2t05X6ShhpbB03LroPjRrT1SMea5f9YJzYUHWBspOCYOLFGYFbJZmdwHYhsTwdlE401n734B3KlCnmMKUsAU00MVBMYT6k";
+        const key = process.env.NEXT_PUBLIC_STRIPE_CLIENT_KEY;
+
         const stripe = await loadStripe(key);
         const body = {
-            products:cart,
-            shipping:formData
-          };
-          const response = await fetch("http://localhost:3000/api/stripe/payment", {
+            products: cart,
+            shipping: formData
+        };
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/stripe/payment`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(body),
-          });
-          if (!response.ok) {
+        });
+        if (!response.ok) {
             throw Error("payment error");
-          }
-          const session = await response.json();
-          //now we can call api request for payment
-          await stripe.redirectToCheckout({
+        }
+        const session = await response.json();
+        //now we can call api request for payment
+        await stripe.redirectToCheckout({
             sessionId: session.sessionId,
-          });
-       
+        });
+
     }
 
-   
+
 
 
     return (
@@ -183,7 +183,7 @@ function PlaceOrderForm() {
                         inputType="email"
                         formControl={form.control}
                     />
-                    
+
                 </div>
 
                 <button
@@ -202,6 +202,18 @@ function PlaceOrderForm() {
 
 
 export default PlaceOrderForm;
+
+
+function PaymentButton() {
+    const {pending} = useFormStatus()
+    return <button
+        type="submit"
+        disabled={pending}
+        className="mt-2 block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium"
+    >
+         {pending ? 'Processing payment...' : 'Payment'}
+    </button>
+}
 
 
 

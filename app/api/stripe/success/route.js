@@ -35,7 +35,8 @@ export async function POST(req) {
    
     // //save on database
     const shipping  = JSON.parse(retrieve.metadata.shipping)
-
+    const products = JSON.parse(retrieve.metadata.products)
+    console.log(products , ' from success')
     const totalAmount  = orderedItems.reduce((acc,pd) => acc + Number(pd.amount) , 0)
     const order =  new Order({
         userId ,
