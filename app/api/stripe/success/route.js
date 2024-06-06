@@ -5,59 +5,73 @@ import { Order } from "@/database/models/payment-mode";
 import { generatePDF } from "@/utils";
 import nodemailer from "nodemailer";
 import { updateProductQuantity } from "@/database/queries";
+import mongoose from "mongoose";
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 export async function POST(req) {
-  const { sessionId, userId , products } = await req.json();
-  if(!sessionId || !userId || !products){
-    return NextResponse.json('forbidden', { status: "501" });
-  
+  const { sessionId, userId, products } = await req.json();
+  if (!sessionId || !userId || !products) {
+    return NextResponse.json("forbidden", { status: "501" });
   }
 
-  
   try {
-    const listLineItems = await stripe.checkout.sessions.listLineItems(sessionId);
+    const listLineItems = await stripe.checkout.sessions.listLineItems(
+      sessionId
+    );
     const retrieve = await stripe.checkout.sessions.retrieve(sessionId);
 
     //check payment is valid
-    if(!listLineItems || !retrieve){
-        return NextResponse.json({message: 'Invalid payment Id!'} , {status: 401});
+    if (!listLineItems || !retrieve) {
+      return NextResponse.json(
+        { message: "Invalid payment Id!" },
+        { status: 401 }
+      );
     }
 
     //check user valid
-    const findUser = await UserModel.findById(userId)
-    if(!findUser){
-        return NextResponse.json({message: 'Invalid user id'} , {status: 401});
+    const findUser = await UserModel.findById(userId);
+    if (!findUser) {
+      return NextResponse.json({ message: "Invalid user id" }, { status: 401 });
     }
-    
+
     //product purchase items
-    const items = listLineItems.data;
-    const orderedItems = items.map((item) => ({
-      name: item.description,
+    // const items = listLineItems.data;
+    // const orderedItems = items.map((item) => ({
+    //   name: item.description,
+    //   quantity: item.quantity,
+    //   amount: Math.floor(item.amount_total / 100),
+    // }));
+    // console.log(items , ' items')
+
+    const orderedItems = products.map((item) => ({
+      name: item.name,
       quantity: item.quantity,
-      amount: Math.floor(item.amount_total / 100),
+      amount: item.price,
+      productId:  item.id,
     }));
-
-   
+    console.log(orderedItems)
     // //save on database
-    const shipping  = JSON.parse(retrieve.metadata.shipping)
+    const shipping = JSON.parse(retrieve.metadata.shipping);
 
-    const totalAmount  = orderedItems.reduce((acc,pd) => acc + Number(pd.amount) , 0)
-    const order =  new Order({
-        userId ,
-        sessionId ,
-        orderedItems,
-        shipping,
-        paymentStatus: "completed",
-        totalAmount
-    })
-    const saveOrder = await order.save()
-    await updateProductQuantity(products)
+    const totalAmount = orderedItems.reduce(
+      (acc, pd) => acc + Number(pd.amount),
+      0
+    );
+    const order = new Order({
+      userId,
+      sessionId,
+      orderedItems,
+      shipping,
+      paymentStatus: "completed",
+      totalAmount,
+    });
+    const saveOrder = await order.save();
+    await updateProductQuantity(products);
 
     //generate pdf to send the mail
-    const invoiceDoc = generatePDF(orderedItems , shipping);
-    const pdfBuffer =  Buffer.from(invoiceDoc.output("arraybuffer"));
+    const invoiceDoc = generatePDF(orderedItems, shipping);
+    const pdfBuffer = Buffer.from(invoiceDoc.output("arraybuffer"));
 
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
@@ -65,10 +79,9 @@ export async function POST(req) {
       secure: true,
       auth: {
         user: "abdullah.mamun.0110@gmail.com",
-        pass: process.env.APP_PASS, 
+        pass: process.env.APP_PASS,
       },
     });
-
 
     const mailOptions = {
       from: '"lws-kart" <no-replay@lwsKart.com>',
@@ -86,7 +99,6 @@ export async function POST(req) {
     const nodeMail = await transporter.sendMail(mailOptions);
 
     return NextResponse.json(`payment success . download your invoice!`);
-
   } catch (error) {
     return NextResponse.json(error.message, { status: "500" });
   }

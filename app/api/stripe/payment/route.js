@@ -21,6 +21,7 @@ export async function POST(req) {
           unit_amount: item.price * 100, // price in cents
         },
         quantity: item.quantity,
+       
       })),
       //NEXT_PUBLIC_BASE_URL
       mode: "payment",

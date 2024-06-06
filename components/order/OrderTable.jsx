@@ -33,7 +33,7 @@ export default async function OrderTable() {
             <TableCell className="font-medium">{order?.orderedItems?.length}</TableCell>
             <TableCell>
                 {
-                    // order?.orderedItems?.map(pd => <ProductName key={pd._id} productId={pd._id}  />)
+                     order?.orderedItems?.map(pd => <ProductName key={pd.productId} productId={pd.productId}  />)
                 }
 
             </TableCell>
@@ -48,8 +48,8 @@ export default async function OrderTable() {
 
 
 
-async function   ProductName (productId) {
+async function   ProductName ({productId}) {
     const product = await getSingleProduct(productId)
 
-    return <TableBody>{product?.name} </TableBody>
+    return <TableBody className="text-sky-600">{product?.name} </TableBody>
 }

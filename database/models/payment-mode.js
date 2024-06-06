@@ -14,9 +14,9 @@ const OrderSchema = new Schema({
   },
   orderedItems: [
     {
-      productId: Schema.Types.ObjectId,
+      productId: { type: Schema.Types.ObjectId, ref: 'products' },
       quantity: Number,
-      price: Number,
+      amount: Number,
     },
   ],
   totalAmount: Number,
