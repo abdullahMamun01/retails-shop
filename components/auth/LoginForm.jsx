@@ -1,35 +1,34 @@
 'use client'
 import { login } from '@/app/actions'
-import { useRouter } from 'next/navigation'
+import { signIn, useSession } from 'next-auth/react'
+import { redirect, useRouter } from 'next/navigation'
 
 import React from 'react'
 import toast from 'react-hot-toast'
 
 export default function LoginForm() {
-
+    const session = useSession()
+    console.log(session.status, ' login')
     const router = useRouter()
     const onSubmit = async (e) => {
         e.preventDefault()
-        const formData = new FormData(e.target)
-        try {
-            const response = await login(formData)
-
-            if(!response.ok){
-                throw Error('failed to login')
-
-            }
-
-            if(response.ok){
-                toast.success('Login successful');
-                router.push('/')
-            }
-        } catch (error) {
+        const formData = new FormData(e.currentTarget);
+        const response = await login(formData);
+        console.log(response);
+        if (!!response.error) {
+            toast.error('failed to login')
+        } else {
+            toast.success('login success')
+            router.push('/shop')
+            router.refresh()
             
+
         }
+
     }
 
     return (
-        <form  onSubmit={onSubmit}>
+        <form onSubmit={onSubmit}>
             <div className="space-y-2">
                 <div>
                     <label htmlFor="email" className="text-gray-600 mb-2 block">Email address</label>
@@ -54,6 +53,7 @@ export default function LoginForm() {
             </div>
             <div className="mt-4">
                 <button type="submit"
+
                     className="block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">Login</button>
             </div>
         </form>

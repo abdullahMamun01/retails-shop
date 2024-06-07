@@ -2,14 +2,16 @@ import Image from 'next/image'
 import React from 'react'
 import ProductImageGallery from './ProductImageGallery'
 import CartAction from './CartAction'
+import { FacebookIcon, Instagram, InstagramIcon, TwitterIcon } from 'lucide-react'
+import SocialShare from '../share/SocialShare'
 
-export default function ProductDetails({product}) {
-    const discountPrice =product?.price -  Math.floor(product?.price * (product?.discountPercentage / 100))
+export default function ProductDetails({ product }) {
+    const discountPrice = product?.price - Math.floor(product?.price * (product?.discountPercentage / 100))
 
     return (
         <div className="container grid grid-cols-2 gap-6">
             <div>
-                
+
                 <ProductImageGallery images={product?.images} name={product?.name} thumbnail={product?.thumbnail} />
             </div>
 
@@ -28,7 +30,7 @@ export default function ProductDetails({product}) {
                 <div className="space-y-2">
                     <p className="text-gray-800 font-semibold space-x-2">
                         <span>Availability: </span>
-                        <span className="text-green-600">{product?.inStock ? 'In Stock' : 'No Stock ' }</span>
+                        <span className="text-green-600">{product?.inStock ? 'In Stock' : 'No Stock '}</span>
                     </p>
                     <p className="space-x-2">
                         <span className="text-gray-800 font-semibold">Brand: </span>
@@ -40,7 +42,7 @@ export default function ProductDetails({product}) {
                     </p>
                     <p className="space-x-2">
                         <span className="text-gray-800 font-semibold">SKU: </span>
-                        <span className="text-gray-600">{product?. variants[0]?.sku}</span>
+                        <span className="text-gray-600">{product?.variants[0]?.sku}</span>
                     </p>
                 </div>
                 <div className="flex items-baseline mb-1 space-x-2 font-roboto mt-4">
@@ -52,21 +54,8 @@ export default function ProductDetails({product}) {
                     {product?.description}
                 </p>
 
-               <CartAction product={product}/>
-                <div className="flex gap-3 mt-4">
-                    <a href="#"
-                        className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-                        <i className="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#"
-                        className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-                        <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#"
-                        className="text-gray-400 hover:text-gray-500 h-8 w-8 rounded-full border border-gray-300 flex items-center justify-center">
-                        <i className="fa-brands fa-instagram"></i>
-                    </a>
-                </div>
+                <CartAction product={product} />
+                <SocialShare />
             </div>
         </div>
     )

@@ -15,8 +15,8 @@ export async function generateMetadata({ params:{productId} }, parent) {
           images: [
               {
                   url: product?.images[0],
-                  width: 1200,
-                  height: 600,
+                  width: 1080,
+                  height: 566,
               }
           ],
       },

@@ -885,11 +885,11 @@
     "totalRatings": 25,
     "ratingScore": 4.5,
     "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/81-skfG79bL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81-skfG79bL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/911CI6gxKXL._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/81-skfG79bL._AC_SL1500_.jpg",
     "tags": ["sofa", "fabric", "living room", "classic"],
     "variants": [
       {
@@ -946,11 +946,11 @@
     "totalRatings": 25,
     "ratingScore": 4.5,
     "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/8182UVtN9wL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71rbpgBxzIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81fGlVDyJtL._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/8182UVtN9wL._AC_SL1500_.jpg",
     "tags": ["sofa", "fabric", "living room", "classic"],
     "variants": [
       {
@@ -1007,11 +1007,11 @@
     "totalRatings": 30,
     "ratingScore": 4.8,
     "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/81BEMhT043L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mMb894pML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81Ps7Cy3pLL._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/81BEMhT043L._AC_SL1500_.jpg",
     "tags": ["sofa", "leather", "living room", "elegant"],
     "variants": [
       {
@@ -1067,11 +1067,11 @@
     "totalRatings": 20,
     "ratingScore": 4.6,
     "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/71K01OYF6hL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71gLEY6sn4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71xq67eq1JL._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/71K01OYF6hL._AC_SL1500_.jpg",
     "tags": ["sofa", "velvet", "living room", "contemporary"],
     "variants": [
       {
@@ -1127,11 +1127,11 @@
     "totalRatings": 18,
     "ratingScore": 4.4,
     "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/81fHvpFjCkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Kx6mPSN+L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ta6tcLOIL._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/81fHvpFjCkL._AC_SL1500_.jpg",
     "tags": ["sofa", "retro", "living room"],
     "variants": [
       {
@@ -1187,114 +1187,2373 @@
     "totalRatings": 22,
     "ratingScore": 4.7,
     "images": [
-        "https://source.unsplash.com/random/360x265?sofa",
-        "https://source.unsplash.com/random/360x265?sofa",
-        "https://source.unsplash.com/random/360x265?sofa"
+      "https://m.media-amazon.com/images/I/91nTWSTz7vL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81PksD6yWwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/918UKfGsj5L._AC_SL1500_.jpg"
     ],
-    "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
+    "thumbnail": "https://m.media-amazon.com/images/I/91nTWSTz7vL._AC_SL1500_.jpg",
     "tags": ["sofa", "modular", "living room", "luxurious"],
     "variants": [
-        {
-            "sku": "LUXEMOD001",
-            "size": "Modular",
-            "color": "#696969",
-            "price": 1299.99,
-            "discountPercentage": 7.69,
-            "quantity": 5,
-            "inStock": true,
-            "image": "https://source.unsplash.com/random/360x265?sofa"
-        },
-        {
-            "sku": "LUXEMOD002",
-            "size": "Sectional",
-            "color": "#2F4F4F",
-            "price": 1299.99,
-            "discountPercentage": 7.69,
-            "quantity": 5,
-            "inStock": true,
-            "image": "https://source.unsplash.com/random/360x265?sofa"
-        },
-        {
-            "sku": "LUXEMOD003",
-            "size": "Corner Sofa",
-            "color": "#DCDCDC",
-            "price": 1299.99,
-            "discountPercentage": 7.69,
-            "quantity": 10,
-            "inStock": true,
-            "image": "https://source.unsplash.com/random/360x265?sofa"
-        }
+      {
+        "sku": "LUXEMOD001",
+        "size": "Modular",
+        "color": "#696969",
+        "price": 1299.99,
+        "discountPercentage": 7.69,
+        "quantity": 5,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "LUXEMOD002",
+        "size": "Sectional",
+        "color": "#2F4F4F",
+        "price": 1299.99,
+        "discountPercentage": 7.69,
+        "quantity": 5,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "LUXEMOD003",
+        "size": "Corner Sofa",
+        "color": "#DCDCDC",
+        "price": 1299.99,
+        "discountPercentage": 7.69,
+        "quantity": 10,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      }
     ],
     "sizes": ["medium", "large", "small"],
     "reviews": [],
     "createdAt": "2024-06-06T10:00:00Z",
     "updatedAt": "2024-06-06T10:00:00Z",
     "details": {
-        "material": "Polyester Blend",
-        "dimensions": "95\"W x 36\"H x 40\"D",
-        "weight": "140 lbs"
+      "material": "Polyester Blend",
+      "dimensions": "95\"W x 36\"H x 40\"D",
+      "weight": "140 lbs"
     }
-},
-{
-  "name": "Scandinavian Style Sofa",
-  "description": "A Scandinavian style sofa that combines simplicity and functionality.",
-  "category": "sofa",
-  "brand": "Nordic Home",
-  "price": 899.99,
-  "quantity": 25,
-  "inStock": true,
-  "discountPercentage": 10,
-  "totalRatings": 28,
-  "ratingScore": 4.6,
-  "images": [
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa",
-      "https://source.unsplash.com/random/360x265?sofa"
-  ],
-  "thumbnail": "https://source.unsplash.com/random/360x265?sofa",
-  "tags": ["sofa", "scandinavian", "living room"],
-  "variants": [
+  },
+  {
+    "name": "Scandinavian Style Sofa",
+    "description": "A Scandinavian style sofa that combines simplicity and functionality.",
+    "category": "sofa",
+    "brand": "Nordic Home",
+    "price": 899.99,
+    "quantity": 25,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 28,
+    "ratingScore": 4.6,
+    "images": [
+      "https://m.media-amazon.com/images/I/51-SclTEy5L._AC_SL1250_.jpg",
+      "https://m.media-amazon.com/images/I/71Q9KRkNNZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61iefupXjkL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/51-SclTEy5L._AC_SL1250_.jpg",
+    "tags": ["sofa", "scandinavian", "living room"],
+    "variants": [
       {
-          "sku": "SCANDISOFA001",
-          "size": "2-seater",
-          "color": "#D3D3D3",
-          "price": 899.99,
-          "discountPercentage": 10,
-          "quantity": 5,
-          "inStock": true,
-          "image": "https://source.unsplash.com/random/360x265?sofa"
+        "sku": "SCANDISOFA001",
+        "size": "2-seater",
+        "color": "#D3D3D3",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
       },
       {
-          "sku": "SCANDISOFA002",
-          "size": "3-seater",
-          "color": "#B0C4DE",
-          "price": 899.99,
-          "discountPercentage": 10,
-          "quantity": 5,
-          "inStock": true,
-          "image": "https://source.unsplash.com/random/360x265?sofa"
+        "sku": "SCANDISOFA002",
+        "size": "3-seater",
+        "color": "#B0C4DE",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
       },
       {
-          "sku": "SCANDISOFA003",
-          "size": "Daybed",
-          "color": "#F0F8FF",
-          "price": 899.99,
-          "discountPercentage": 10,
-          "quantity": 15,
-          "inStock": true,
-          "image": "https://source.unsplash.com/random/360x265?sofa"
+        "sku": "SCANDISOFA003",
+        "size": "Daybed",
+        "color": "#F0F8FF",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 15,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
       }
-  ],
-  "sizes": ["medium", "large", "small"],
-  "reviews": [],
-  "createdAt": "2024-06-06T10:00:00Z",
-  "updatedAt": "2024-06-06T10:00:00Z",
-  "details": {
+    ],
+    "sizes": ["medium", "large", "small"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z",
+    "details": {
       "material": "Fabric",
       "dimensions": "86\"W x 35\"H x 38\"D",
       "weight": "130 lbs"
-  }
+    }
+  },
+
+  {
+    "name": "Mid-Century Modern Sofa",
+    "description": "A mid-century modern sofa that brings retro charm to your living space.",
+    "category": "sofa",
+    "brand": "Retro Revival",
+    "price": 949.99,
+    "quantity": 30,
+    "inStock": true,
+    "discountPercentage": 10.53,
+    "totalRatings": 24,
+    "ratingScore": 4.5,
+    "images": [
+      "https://m.media-amazon.com/images/I/911BQX4zRbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81+PHNRzYGL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/819pmjSAMkL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/911BQX4zRbL._AC_SL1500_.jpg",
+    "tags": ["sofa", "mid-century", "living room", "retro"],
+    "variants": [
+      {
+        "sku": "MIDCENTURY001",
+        "size": "small",
+        "color": "#FFD700",
+        "price": 949.99,
+        "discountPercentage": 10.53,
+        "quantity": 10,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "MIDCENTURY002",
+        "size": "medium",
+        "color": "#008080",
+        "price": 949.99,
+        "discountPercentage": 10.53,
+        "quantity": 10,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "MIDCENTURY003",
+        "size": "large",
+        "color": "#808080",
+        "price": 949.99,
+        "discountPercentage": 10.53,
+        "quantity": 10,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      }
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z",
+    "details": {
+      "material": "Polyester Blend",
+      "dimensions": "82\"W x 33\"H x 36\"D",
+      "weight": "120 lbs"
+    }
+  },
+  {
+    "name": "Plush Velvet Sofa",
+    "description": "A plush velvet sofa that offers unparalleled comfort and style.",
+    "category": "sofa",
+    "brand": "Opulent Living",
+    "price": 999.99,
+    "quantity": 22,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 26,
+    "ratingScore": 4.7,
+    "images": [
+      "https://m.media-amazon.com/images/I/61pLcNpXoPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61nCcVgR0SL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/61pLcNpXoPL._AC_SL1500_.jpg",
+    "tags": ["sofa", "velvet", "living room", "luxurious"],
+    "variants": [
+      {
+        "sku": "PLUSHVELVET001",
+        "size": "small",
+        "color": "#008000",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 7,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "PLUSHVELVET002",
+        "size": "medium",
+        "color": "#000080",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 7,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      },
+      {
+        "sku": "PLUSHVELVET003",
+        "size": "large",
+        "color": "#800080",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 8,
+        "inStock": true,
+        "image": "https://source.unsplash.com/random/360x265?sofa"
+      }
+    ],
+    "sizes": ["small", "medium", "large"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Bohemian Style Sofa",
+    "description": "A bohemian style sofa that adds warmth and character to your space.",
+    "category": "sofa",
+    "brand": "Eclectic Living",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/81ykrpjmcXL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81e8MIAEcfL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81-ZlMEC07L._SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81ykrpjmcXL._SL1500_.jpg",
+    "tags": ["sofa", "Bohemian", "living room"],
+    "variants": [],
+    "sizes": ["3-seater", "Sectional", "Daybed"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Chic Linen Sofa",
+    "description": "A chic linen sofa that combines style and comfort effortlessly.",
+    "category": "sofa",
+    "brand": "Modern Comfort",
+    "price": 749.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 6.67,
+    "totalRatings": 22,
+    "images": [
+      "https://m.media-amazon.com/images/I/812lHbnhonL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81F0-7QJsKL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ejdj9-zzL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/812lHbnhonL._AC_SL1500_.jpg",
+    "tags": ["sofa", "linen", "living room", "chic"],
+    "variants": [
+      {
+        "sku": "CHICLINEN001",
+        "size": "2-seater",
+        "color": "#F5F5DC",
+        "price": 749.99,
+        "discountPercentage": 6.67,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "CHICLINEN002",
+        "size": "3-seater",
+        "color": "#D3D3D3",
+        "price": 749.99,
+        "discountPercentage": 6.67,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "CHICLINEN003",
+        "size": "Modular",
+        "color": "#FFFFFF",
+        "price": 749.99,
+        "discountPercentage": 6.67,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["small", "medium"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Modern Sectional Sofa",
+    "description": "A modern sectional sofa that adds versatility to your living space.",
+    "category": "sofa",
+    "brand": "Contemporary Designs",
+    "price": 999.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/81e0D8wUqVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81OtW7X83PL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81L20zL+RVL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81e0D8wUqVL._AC_SL1500_.jpg",
+    "tags": ["sofa", "modern", "living room"],
+    "variants": [
+      {
+        "sku": "MODSEC001",
+        "size": "Sectional",
+        "color": "#FFFFFF",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "MODSEC002",
+        "size": "L-shaped",
+        "color": "#D3D3D3",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "MODSEC003",
+        "size": "Chaise Lounge",
+        "color": "#000000",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["small", "medium"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Luxurious Velvet Sofa",
+    "description": "A luxurious velvet sofa that epitomizes opulence and comfort.",
+    "category": "sofa",
+    "brand": "Opulent Interiors",
+    "price": 1199.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 8.33,
+    "totalRatings": 28,
+    "images": [
+      "https://m.media-amazon.com/images/I/A1r-kPHB-fL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81QICWBpUfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81zHrs0lUGL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/A1r-kPHB-fL._AC_SL1500_.jpg",
+    "tags": ["sofa", "velvet", "living room", "luxurious"],
+    "variants": [
+      {
+        "sku": "LUXVEL001",
+        "size": "3-seater",
+        "color": "#800080",
+        "price": 1199.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "LUXVEL002",
+        "size": "Chaise Lounge",
+        "color": "#4B0082",
+        "price": 1199.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "LUXVEL003",
+        "size": "Modular",
+        "color": "#483D8B",
+        "price": 1199.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["3-seater", "Chaise Lounge", "Modular"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Cozy Fabric Sofa",
+    "description": "A cozy fabric sofa that invites you to relax and unwind.",
+    "category": "sofa",
+    "brand": "Warm Living",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/71WvMJYJB2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61aHleCImzL._AC_SL1404_.jpg",
+      "https://m.media-amazon.com/images/I/81qnd9vJ2YL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71WvMJYJB2L._AC_SL1500_.jpg",
+    "tags": ["sofa", "fabric", "living room"],
+    "variants": [
+      {
+        "sku": "COZYFAB001",
+        "size": "2-seater",
+        "color": "#F5F5F5",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "COZYFAB002",
+        "size": "3-seater",
+        "color": "#D3D3D3",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "COZYFAB003",
+        "size": "Sleeper Sofa",
+        "color": "#FFFFFF",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["2-seater", "3-seater", "Sleeper Sofa"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Stylish Leather Sofa",
+    "description": "A stylish leather sofa that adds sophistication to any room.",
+    "category": "sofa",
+    "brand": "Trendy Designs",
+    "price": 1299.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 8.33,
+    "totalRatings": 22,
+    "images": [
+      "https://m.media-amazon.com/images/I/91HTEUTpPrL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mG4wxv4LL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ZzpwCRaIL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/91HTEUTpPrL._AC_SL1500_.jpg",
+    "tags": ["sofa", "leather", "living room"],
+    "variants": [
+      {
+        "sku": "STYLTHR001",
+        "size": "3-seater",
+        "color": "#8B4513",
+        "price": 1299.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "STYLTHR002",
+        "size": "Sectional",
+        "color": "#000000",
+        "price": 1299.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "STYLTHR003",
+        "size": "Recliner",
+        "color": "#A0522D",
+        "price": 1299.99,
+        "discountPercentage": 8.33,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["3-seater", "Sectional", "Recliner"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Transitional Sofa",
+    "description": "A transitional sofa that seamlessly blends modern and traditional elements.",
+    "category": "sofa",
+    "brand": "Timeless Furnishings",
+    "price": 949.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 18,
+    "images": [
+      "https://m.media-amazon.com/images/I/51e7HK4wbvL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/51e7HK4wbvL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61zHDxAFRmL._AC_SL1000_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/51e7HK4wbvL._AC_SL1000_.jpg",
+    "tags": ["sofa", "polyester blend", "living room"],
+    "variants": [
+      {
+        "sku": "TRANSOF001",
+        "size": "2-seater",
+        "color": "#FFFFFF",
+        "price": 949.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "TRANSOF002",
+        "size": "3-seater",
+        "color": "#D3D3D3",
+        "price": 949.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "TRANSOF003",
+        "size": "Sectional",
+        "color": "#000000",
+        "price": 949.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["2-seater", "3-seater", "Sectional"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "French Country Sofa",
+    "description": "A French country sofa that adds charm and elegance to your home.",
+    "category": "sofa",
+    "brand": "Country Home",
+    "price": 999.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/81h-9ps0LkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81EtvVbGCZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81qvKaDvv0L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81h-9ps0LkL._AC_SL1500_.jpg",
+    "tags": ["sofa", "fabric", "living room"],
+    "variants": [
+      {
+        "sku": "FRCNSOF001",
+        "size": "3-seater",
+        "color": "#D3D3D3",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      },
+      {
+        "sku": "FRCNSOF002",
+        "size": "Sectional",
+        "color": "#F0F8FF",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant2.jpg"
+      },
+      {
+        "sku": "FRCNSOF003",
+        "size": "Daybed",
+        "color": "#8B4513",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant3.jpg"
+      }
+    ],
+    "sizes": ["3-seater", "Sectional", "Daybed"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Garden Patio Set",
+    "description": "A stylish and durable patio set perfect for outdoor gatherings.",
+    "category": "outdoor",
+    "brand": "Outdoor Living",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 15,
+    "images": [
+      "https://m.media-amazon.com/images/I/91hgI-wMSPL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91lE1sH8eOL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91lE1sH8eOL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/91hgI-wMSPL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "patio set", "wicker"],
+    "variants": [
+      {
+        "sku": "GDPTST001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Dining Set",
+    "description": "An elegant outdoor dining set that enhances your patio or deck.",
+    "category": "outdoor",
+    "brand": "Alfresco Designs",
+    "price": 1299.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/816KbNUNhjL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/816KbNUNhjL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71OWd9KJcCL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/816KbNUNhjL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "dining set", "aluminum"],
+    "variants": [
+      {
+        "sku": "OTDDST001",
+        "size": "default",
+        "color": "#D2691E",
+        "price": 1299.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Rattan Garden Sofa Set",
+    "description": "A luxurious rattan sofa set for your garden or patio oasis.",
+    "category": "outdoor",
+    "brand": "Rattan Retreat",
+    "price": 1499.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/71C37StdnaL._AC_SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71nntN1o3ZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71nntN1o3ZL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71C37StdnaL._AC_SL1000_.jpg",
+    "tags": ["outdoor", "rattan", "sofa set"],
+    "variants": [
+      {
+        "sku": "RTNGST001",
+        "size": "default",
+        "color": "#8B4513",
+        "price": 1499.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Garden Patio Set",
+    "description": "A stylish and durable patio set perfect for outdoor gatherings.",
+    "category": "outdoor",
+    "brand": "Outdoor Living",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 15,
+    "images": [
+      "https://m.media-amazon.com/images/I/718aXL99RlL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81xJrfJXdkL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/818TJW85LgL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/718aXL99RlL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "patio set", "wicker"],
+    "variants": [
+      {
+        "sku": "GDPTST001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 899.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Fire Pit",
+    "description": "An outdoor fire pit for cozy evenings with friends and family.",
+    "category": "outdoor",
+    "brand": "Fire & Heat",
+    "price": 399.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 12,
+    "images": [
+      "https://m.media-amazon.com/images/I/71EYud1CG-L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91a+rrA7jDL._AC_SL1500_.jpg",
+      "hhttps://m.media-amazon.com/images/I/91a+rrA7jDL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71EYud1CG-L._AC_SL1500_.jpg",
+    "tags": ["outdoor", "fire pit", "cozy"],
+    "variants": [
+      {
+        "sku": "ODFPT001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 399.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Adirondack Chair",
+    "description": "A classic Adirondack chair for lounging in your backyard.",
+    "category": "outdoor",
+    "brand": "Rustic Outdoors",
+    "price": 149.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 8,
+    "images": [
+      "https://m.media-amazon.com/images/I/81ShDJFpnfL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/718phcs9WZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81yShBafHeL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81ShDJFpnfL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "adirondack chair", "rustic"],
+    "variants": [
+      {
+        "sku": "ODADCH001",
+        "size": "default",
+        "color": "#8B4513",
+        "price": 149.99,
+        "discountPercentage": 10,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Outdoor Rocking Chair",
+    "description": "A comfortable rocking chair for relaxing outdoors.",
+    "category": "outdoor",
+    "brand": "Relaxation Rockers",
+    "price": 199.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 12,
+    "images": [
+      "https://m.media-amazon.com/images/I/91uXiPIo8uL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81g26Y25SDL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91LJGXcK+PL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/91uXiPIo8uL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "rocking chair", "relaxation"],
+    "variants": [
+      {
+        "sku": "ODRKCH001",
+        "size": "default",
+        "color": "#8B4513",
+        "price": 199.99,
+        "discountPercentage": 10,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Umbrella",
+    "description": "A large outdoor umbrella to provide shade on sunny days.",
+    "category": "outdoor",
+    "brand": "Sunshade Solutions",
+    "price": 79.99,
+    "quantity": 8,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/61QC40ODJiL._AC_SX522_.jpg",
+      "https://m.media-amazon.com/images/I/81eeez1tWgL._AC_SX522_.jpg",
+      "https://m.media-amazon.com/images/I/718P0HVNDYL._AC_SX522_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/61QC40ODJiL._AC_SX522_.jpg",
+    "tags": ["outdoor", "umbrella", "shade"],
+    "variants": [
+      {
+        "sku": "ODUMBR001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 8,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Bench",
+    "description": "A sturdy outdoor bench for enjoying your garden or patio.",
+    "category": "outdoor",
+    "brand": "Nature's Retreat",
+    "price": 249.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 10,
+    "images": [
+      "https://m.media-amazon.com/images/I/81-PqUwh6xL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71kSZUsVBML._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71t6q4xanlL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81-PqUwh6xL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "bench", "garden"],
+    "variants": [
+      {
+        "sku": "ODBNCH001",
+        "size": "default",
+        "color": "#808080",
+        "price": 249.99,
+        "discountPercentage": 20,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Nightstand with Drawer",
+    "description": "A compact nightstand with a convenient drawer for storing essentials.",
+    "category": "bedroom",
+    "brand": "Home Harmony",
+    "price": 149.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 13.3,
+    "totalRatings": 15,
+    "images": [
+      "https://m.media-amazon.com/images/I/81oSnB2M5aL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71A2H-ZmmVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71qTnaKijbL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81oSnB2M5aL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "nightstand", "drawer"],
+    "variants": [
+      {
+        "sku": "BDNTST001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 149.99,
+        "discountPercentage": 13.3,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Queen Size Bed Frame",
+    "description": "A stylish and sturdy queen size bed frame for a comfortable sleep.",
+    "category": "bedroom",
+    "brand": "Sleep Haven",
+    "price": 699.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 14.3,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/81lTUWPc4oL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81o6epXw7PL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81hJGFkei5L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81lTUWPc4oL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "bed frame", "queen size"],
+    "variants": [
+      {
+        "sku": "BDBDFR001",
+        "size": "Queen",
+        "color": "#8B4513",
+        "price": 699.99,
+        "discountPercentage": 14.3,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["Queen"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Folding Chair",
+    "description": "A lightweight and portable folding chair for outdoor events.",
+    "category": "outdoor",
+    "brand": "Easy Fold",
+    "price": 49.99,
+    "quantity": 20,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 5,
+    "images": [
+      "https://m.media-amazon.com/images/I/81Ep68TFBRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Tm83COBlL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/A1a45t7kFGL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/A1a45t7kFGL._AC_SL1500_.jpg",
+    "tags": ["outdoor", "folding chair", "portable"],
+    "variants": [
+      {
+        "sku": "ODFLCH001",
+        "size": "default",
+        "color": "#808080",
+        "price": 49.99,
+        "discountPercentage": 20,
+        "quantity": 20,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Outdoor Plant Stand",
+    "description": "A decorative outdoor plant stand to showcase your favorite plants.",
+    "category": "outdoor",
+    "brand": "Garden Elegance",
+    "price": 79.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/81rx9e8vB9L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/811zPzygpiL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91NwekRhC-L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81rx9e8vB9L._AC_SL1500_.jpg",
+    "tags": ["outdoor", "plant stand", "decor"],
+    "variants": [
+      {
+        "sku": "ODPLST001",
+        "size": "default",
+        "color": "#808080",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedside Lamp",
+    "description": "A stylish bedside lamp to add ambiance to your bedroom.",
+    "category": "bedroom",
+    "brand": "Light & Bright",
+    "price": 49.99,
+    "quantity": 20,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 10,
+    "images": [
+      "https://m.media-amazon.com/images/I/71+RAgOfO2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/8126BZuSB0L._AC_SL1500_.jpg",
+      "https://source.unsplash.com/randomhttps://m.media-amazon.com/images/I/81Pm3WJr2zL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71+RAgOfO2L._AC_SL1500_.jpg",
+    "tags": ["bedroom", "lamp", "bedside"],
+    "variants": [
+      {
+        "sku": "BDLMP001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 49.99,
+        "discountPercentage": 20,
+        "quantity": 20,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Wardrobe Closet",
+    "description": "A spacious wardrobe closet for organizing clothes and accessories.",
+    "category": "bedroom",
+    "brand": "Closet Creations",
+    "price": 1299.99,
+    "quantity": 4,
+    "inStock": true,
+    "discountPercentage": 7.7,
+    "totalRatings": 18,
+    "images": [
+      "https://m.media-amazon.com/images/I/81B-esGokRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81YrUqAjAIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71VPyMvOGLL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81B-esGokRL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "wardrobe", "closet"],
+    "variants": [
+      {
+        "sku": "BDWRCL001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 1299.99,
+        "discountPercentage": 7.7,
+        "quantity": 4,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "King Size Mattress",
+    "description": "A premium king size mattress for a restful and rejuvenating sleep experience.",
+    "category": "bedroom",
+    "brand": "Luxury Slumber",
+    "price": 999.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 30,
+    "images": [
+      "https://m.media-amazon.com/images/I/81iw05tVyVL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81r489ImarL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ZL67vxARL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81iw05tVyVL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "mattress", "king size"],
+    "variants": [
+      {
+        "sku": "BDKSMT001",
+        "size": "King",
+        "color": "#FFFFFF",
+        "price": 999.99,
+        "discountPercentage": 10,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["King"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Dresser with Mirror",
+    "description": "A spacious dresser with a mirror for organizing clothes and accessories.",
+    "category": "bedroom",
+    "brand": "Elegant Living",
+    "price": 899.99,
+    "quantity": 5,
+    "inStock": true,
+    "discountPercentage": 11.1,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/81F5mDU1gsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81GZdiMbCZL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81SfRvRpVSL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81F5mDU1gsL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "dresser", "mirror"],
+    "variants": [
+      {
+        "sku": "BDDRMR001",
+        "size": "default",
+        "color": "#8B4513",
+        "price": 899.99,
+        "discountPercentage": 11.1,
+        "quantity": 5,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Chair",
+    "description": "A cozy and comfortable chair for reading or relaxation in your bedroom.",
+    "category": "bedroom",
+    "brand": "Comfort Corner",
+    "price": 99.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 5,
+    "images": [
+      "https://m.media-amazon.com/images/I/81c-vqq-NNL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81w5G6-FBmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81c-vqq-NNL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81c-vqq-NNL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "chair", "comfort"],
+    "variants": [
+      {
+        "sku": "BDCH001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 99.99,
+        "discountPercentage": 20,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Wall Art",
+    "description": "Beautiful wall art to add character and style to your bedroom.",
+    "category": "bedroom",
+    "brand": "Artistic Expressions",
+    "price": 79.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/81bosJtMN-L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/816iu2PbH2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81JXZ78GGXL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81bosJtMN-L._AC_SL1500_.jpg",
+    "tags": ["bedroom", "wall art", "decor"],
+    "variants": [
+      {
+        "sku": "BDWART001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Vanity Set",
+    "description": "A stylish vanity set for grooming and makeup application.",
+    "category": "bedroom",
+    "brand": "Glamorous Vanity",
+    "price": 299.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 16.7,
+    "totalRatings": 12,
+    "images": [
+      "https://m.media-amazon.com/images/I/71ZWllahs8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81sZkp7sMrL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/813HRGnlLtL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81sZkp7sMrL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "vanity", "grooming"],
+    "variants": [
+      {
+        "sku": "BDVNS001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 299.99,
+        "discountPercentage": 16.7,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Rug",
+    "description": "A soft and plush rug to add warmth and comfort to your bedroom.",
+    "category": "bedroom",
+    "brand": "Cozy Comfort",
+    "price": 129.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 23.1,
+    "totalRatings": 8,
+    "images": [
+      "https://m.media-amazon.com/images/I/71ZWllahs8L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81-ScabUOyL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81sZkp7sMrL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71ZWllahs8L._AC_SL1500_.jpg",
+    "tags": ["bedroom", "rug", "comfort"],
+    "variants": [
+      {
+        "sku": "BDRGRG001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 129.99,
+        "discountPercentage": 23.1,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Bedroom Wall Clock",
+    "description": "A stylish wall clock to keep track of time in your bedroom.",
+    "category": "bedroom",
+    "brand": "Timeless Decor",
+    "price": 39.99,
+    "quantity": 8,
+    "inStock": true,
+    "discountPercentage": 25,
+    "totalRatings": 4,
+    "images": [
+      "https://m.media-amazon.com/images/I/81sCWbuXLYL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81k7PTur+zL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/816wxbnDbzL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81sCWbuXLYL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "clock", "decor"],
+    "variants": [
+      {
+        "sku": "BDWC001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 39.99,
+        "discountPercentage": 25,
+        "quantity": 8,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Bedroom Throw Blanket",
+    "description": "A soft and cozy throw blanket to keep you warm on chilly nights.",
+    "category": "bedroom",
+    "brand": "Cozy Comfort",
+    "price": 29.99,
+    "quantity": 20,
+    "inStock": true,
+    "discountPercentage": 16.7,
+    "totalRatings": 3,
+    "images": [
+      "https://m.media-amazon.com/images/I/817FtkJ3mCL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61RZjEmfO4L._AC_SL1189_.jpg",
+      "https://m.media-amazon.com/images/I/817FtkJ3mCL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/817FtkJ3mCL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "blanket", "comfort"],
+    "variants": [
+      {
+        "sku": "BDTB001",
+        "size": "default",
+        "color": "#A52A2A",
+        "price": 29.99,
+        "discountPercentage": 16.7,
+        "quantity": 20,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Computer Desk",
+    "description": "A functional desk for studying or working in the comfort of your bedroom.",
+    "category": "bedroom",
+    "brand": "Study Space",
+    "price": 149.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 13.3,
+    "totalRatings": 8,
+    "images": [
+      "https://m.media-amazon.com/images/I/71W2znnEuvL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61nE25fR+JL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61pKJOh9gFL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71W2znnEuvL._AC_SL1500_.jpg",
+    "tags": ["bedroom","computer", "desk", "study"],
+    "variants": [
+      {
+        "sku": "BDDSK001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 149.99,
+        "discountPercentage": 13.3,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Mirror",
+    "description": "A large mirror to brighten up your bedroom and add depth to the space.",
+    "category": "bedroom",
+    "brand": "Reflections",
+    "price": 79.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/71vvmpWcx6L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71ldOH5tT9L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71vvmpWcx6L._AC_SL1500_.jpg",
+    "tags": ["bedroom", "mirror", "decor"],
+    "variants": [
+      {
+        "sku": "BDMR001",
+        "size": "default",
+        "color": "#FFFFFF",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Bedroom Accent Chair",
+    "description": "An elegant accent chair to add sophistication to your bedroom decor.",
+    "category": "bedroom",
+    "brand": "Accent Allure",
+    "price": 129.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 15.4,
+    "totalRatings": 8,
+    "images": [
+      "https://m.media-amazon.com/images/I/81VQ9pO1JuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/814G+tiEaIL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81T+5MUlCfL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81VQ9pO1JuL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "chair", "accent"],
+    "variants": [
+      {
+        "sku": "BDAC001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 129.99,
+        "discountPercentage": 15.4,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Storage Bench",
+    "description": "A versatile storage bench to keep your bedroom tidy and organized.",
+    "category": "bedroom",
+    "brand": "Storage Solutions",
+    "price": 99.99,
+    "quantity": 8,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/81a7TMgzNsL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71xj3hcb9sL._AC_SL1500_.jpg"
+
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81a7TMgzNsL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "storage", "bench"],
+    "variants": [
+      {
+        "sku": "BDSB001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 99.99,
+        "discountPercentage": 20,
+        "quantity": 8,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Floor Lamp",
+    "description": "A sleek floor lamp to provide ambient lighting in your bedroom.",
+    "category": "bedroom",
+    "brand": "Bright Glow",
+    "price": 69.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 14.3,
+    "totalRatings": 5,
+    "images": [
+      "https://m.media-amazon.com/images/I/61bzaE6X+eL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vlM2dm6aL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71d4cAk6XRL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/61bzaE6X+eL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "lamp", "lighting"],
+    "variants": [
+      {
+        "sku": "BDFL001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 69.99,
+        "discountPercentage": 14.3,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Stainless Steel Cookware Set",
+    "description": "A complete stainless steel cookware set for all your cooking needs.",
+    "category": "kitchen",
+    "brand": "Chef's Choice",
+    "price": 199.99,
+    "quantity": 20,
+    "inStock": true,
+    "discountPercentage": 15,
+    "totalRatings": 30,
+    "images": [
+      "https://m.media-amazon.com/images/I/81pu1FPHSmL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/41x9jvEw3ML._AC_.jpg",
+      "https://m.media-amazon.com/images/I/81pu1FPHSmL._AC_SL1500_.jpgm/360x265?kitchen"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81pu1FPHSmL._AC_SL1500_.jpg",
+    "tags": ["kitchen", "cookware", "set"],
+    "variants": [
+      {
+        "sku": "SSCS001",
+        "size": "default",
+        "color": "#A9A9A9",
+        "price": 199.99,
+        "discountPercentage": 15,
+        "quantity": 20,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Non-Stick Bakeware Set",
+    "description": "A versatile non-stick bakeware set for baking delicious treats.",
+    "category": "kitchen",
+    "brand": "BakeMaster",
+    "price": 59.99,
+    "quantity": 25,
+    "inStock": true,
+    "discountPercentage": 16.7,
+    "totalRatings": 20,
+    "images": [
+      "https://m.media-amazon.com/images/I/91hBA6hLfuL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71gSaIT7zpL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91M+2yIbpJL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/91hBA6hLfuL._AC_SL1500_.jpg",
+    "tags": ["kitchen", "bakeware", "non-stick"],
+    "variants": [
+      {
+        "sku": "NSBS001",
+        "size": "default",
+        "color": "#A9A9A9",
+        "price": 59.99,
+        "discountPercentage": 16.7,
+        "quantity": 25,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Blender",
+    "description": "A powerful blender for making smoothies, soups, and sauces.",
+    "category": "kitchen",
+    "brand": "BlendMaster",
+    "price": 79.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/71iD5RyhuaL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81a4FkW5f0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71iD5RyhuaL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71iD5RyhuaL._AC_SL1500_.jpg",
+    "tags": ["kitchen", "blender", "appliance"],
+    "variants": [
+      {
+        "sku": "BLM001",
+        "size": "default",
+        "color": "#FFFFFF",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Bedroom Accent Chair",
+    "description": "An elegant accent chair to add sophistication to your bedroom decor.",
+    "category": "bedroom",
+    "brand": "Accent Allure",
+    "price": 129.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 15.4,
+    "totalRatings": 8,
+    "images": [
+      "https://m.media-amazon.com/images/I/71mjMi0Gi0L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71WrzTy7CwL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mjMi0Gi0L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71mjMi0Gi0L._AC_SL1500_.jpg",
+    "tags": ["bedroom", "furniture", "chair"],
+    "variants": [
+      {
+        "sku": "BAC001",
+        "size": "default",
+        "color": "#8A2BE2",
+        "price": 129.99,
+        "discountPercentage": 15.4,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Storage Bench",
+    "description": "A versatile storage bench to keep your bedroom tidy and organized.",
+    "category": "bedroom",
+    "brand": "Storage Solutions",
+    "price": 99.99,
+    "quantity": 8,
+    "inStock": true,
+    "discountPercentage": 20,
+    "totalRatings": 6,
+    "images": [
+      "https://m.media-amazon.com/images/I/71kk7zACDRL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81SF7s9-NbL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71kk7zACDRL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71kk7zACDRL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "furniture", "bench"],
+    "variants": [
+      {
+        "sku": "BSB001",
+        "size": "default",
+        "color": "#2E8B57",
+        "price": 99.99,
+        "discountPercentage": 20,
+        "quantity": 8,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bedroom Floor Lamp",
+    "description": "A sleek floor lamp to provide ambient lighting in your bedroom.",
+    "category": "bedroom",
+    "brand": "Bright Glow",
+    "price": 69.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 14.3,
+    "totalRatings": 5,
+    "images": [
+      "https://m.media-amazon.com/images/I/61tKBisT-fL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61ai7mJm0oL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71vu9HQ7WpL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/61tKBisT-fL._AC_SL1500_.jpg",
+    "tags": ["bedroom", "lighting", "lamp"],
+    "variants": [
+      {
+        "sku": "BFL001",
+        "size": "default",
+        "color": "#FFD700",
+        "price": 69.99,
+        "discountPercentage": 14.3,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+
+  {
+    "name": "Modern Sectional Sofa",
+    "description": "A stylish and comfortable modern sectional sofa for your living room.",
+    "category": "living room",
+    "brand": "Modern Living",
+    "price": 899.99,
+    "quantity": 10,
+    "inStock": true,
+    "discountPercentage": 11.1,
+    "totalRatings": 50,
+    "images": [
+      "https://m.media-amazon.com/images/I/81rTUMHuR4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81rTUMHuR4L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61wQtwXF9kL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81rTUMHuR4L._AC_SL1500_.jpg",
+    "tags": ["living room", "furniture", "sofa"],
+    "variants": [
+      {
+        "sku": "MSS001",
+        "size": "default",
+        "color": "#808080",
+        "price": 899.99,
+        "discountPercentage": 11.1,
+        "quantity": 10,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Coffee Table with Storage",
+    "description": "A functional coffee table with ample storage space for your living room.",
+    "category": "living room",
+    "brand": "Home Essentials",
+    "price": 149.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 13.3,
+    "totalRatings": 40,
+    "images": [
+      "https://m.media-amazon.com/images/I/91S-9LGuDEL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/911dJiU6UqL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/919pOZRxEjL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/91S-9LGuDEL._AC_SL1500_.jpg",
+    "tags": ["living room", "furniture", "coffee table"],
+    "variants": [
+      {
+        "sku": "CTS001",
+        "size": "default",
+        "color": "#654321",
+        "price": 149.99,
+        "discountPercentage": 13.3,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Accent Armchair",
+    "description": "An elegant and comfortable accent armchair to complement your livingroom decor.",
+    "category": "living room",
+    "brand": "Comfort Plus",
+    "price": 299.99,
+    "quantity": 20,
+    "inStock": true,
+    "discountPercentage": 13.3,
+    "totalRatings": 35,
+    "images": [
+      "https://m.media-amazon.com/images/I/81bwiKeVWzL._AC_SL1500_.jpgm",
+      "https://m.media-amazon.com/images/I/81Ewr8hC2NL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81TM7UWI5mL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/81bwiKeVWzL._AC_SL1500_.jpg",
+    "tags": ["living room", "furniture", "armchair"],
+    "variants": [
+      {
+        "sku": "AAC001",
+        "size": "default",
+        "color": "#F5F5DC",
+        "price": 299.99,
+        "discountPercentage": 13.3,
+        "quantity": 20,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "TV Stand",
+    "description": "A sleek and sturdy TV stand to organize your entertainment center in style.",
+    "category": "living room",
+    "brand": "Media Master",
+    "price": 199.99,
+    "quantity": 12,
+    "inStock": true,
+    "discountPercentage": 10,
+    "totalRatings": 30,
+    "images": [
+      "https://m.media-amazon.com/images/I/51BXyAlNmMS._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/6115ndFCuFL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ZLHz1zQ4L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/51BXyAlNmMS._AC_SL1500_.jpg",
+    "tags": ["living room", "furniture", "TV stand"],
+    "variants": [
+      {
+        "sku": "TVS001",
+        "size": "default",
+        "color": "#000000",
+        "price": 199.99,
+        "discountPercentage": 10,
+        "quantity": 12,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Floor Lamp",
+    "description": "A contemporary floor lamp to add ambient lighting to your living space.",
+    "category": "living room",
+    "brand": "Light Trends",
+    "price": 79.99,
+    "quantity": 25,
+    "inStock": true,
+    "discountPercentage": 12.5,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/619pHvEWo2L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61cy1QAhikL._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/713pM+UE-wL._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/619pHvEWo2L._AC_SL1500_.jpg",
+    "tags": ["living room", "lighting", "floor lamp"],
+    "variants": [
+      {
+        "sku": "FL001",
+        "size": "default",
+        "color": "#C0C0C0",
+        "price": 79.99,
+        "discountPercentage": 12.5,
+        "quantity": 25,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  {
+    "name": "Bookshelf",
+    "description": "A spacious bookshelf to showcase your favorite reads and decorative items.",
+    "category": "living room",
+    "brand": "Book Haven",
+    "price": 179.99,
+    "quantity": 15,
+    "inStock": true,
+    "discountPercentage": 11.1,
+    "totalRatings": 25,
+    "images": [
+      "https://m.media-amazon.com/images/I/81l4vSEYGzL._AC_SL1500_.jpg",
+      "hhttps://m.media-amazon.com/images/I/71se729fF1L._AC_SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71WhW3uxi-L._AC_SL1500_.jpg"
+    ],
+    "thumbnail": "https://m.media-amazon.com/images/I/71WhW3uxi-L._AC_SL1500_.jpg",
+    "tags": ["living room", "furniture", "bookshelf"],
+    "variants": [
+      {
+        "sku": "BS001",
+        "size": "default",
+        "color": "#654321",
+        "price": 179.99,
+        "discountPercentage": 11.1,
+        "quantity": 15,
+        "inStock": true,
+        "image": "path/to/image1_variant1.jpg"
+      }
+    ],
+    "sizes": ["default"],
+    "reviews": [],
+    "createdAt": "2024-06-06T10:00:00Z",
+    "updatedAt": "2024-06-06T10:00:00Z"
+  },
+  
+
+{
+  "name": "Throw Pillows",
+  "description": "A set of stylish throw pillows to add comfort and flair to your living room furniture.",
+  "category": "living room",
+  "brand": "Pillow Palace",
+  "price": 29.99,
+  "quantity": 12,
+  "inStock": true,
+  "discountPercentage": 16.7,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/61fjwvUCGzL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/71mclj6gArL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/81wQzjNga4L._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/61fjwvUCGzL._AC_SL1000_.jpg",
+  "tags": ["living room", "throw pillows", "decor"],
+  "variants": [
+    {
+      "sku": "TP001",
+      "size": "18\" x 18\"",
+      "color": "#A9A9A9",
+      "price": 29.99,
+      "discountPercentage": 16.7,
+      "quantity": 12,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["18\" x 18\""],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Area Rug",
+  "description": "A luxurious area rug to add warmth and texture to your living room flooring.",
+  "category": "living room",
+  "brand": "RugMasters",
+  "price": 179.99,
+  "quantity": 10,
+  "inStock": true,
+  "discountPercentage": 11.1,
+  "totalRatings": 25,
+  "images": [
+    "https://m.media-amazon.com/images/I/A1pwi+ja6YL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/A1wgkvHiw-L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/A13XfPLUpYL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/A1pwi+ja6YL._AC_SL1500_.jpg",
+  "tags": ["living room", "area rug", "decor"],
+  "variants": [
+    {
+      "sku": "AR001",
+      "size": "9' x 12'",
+      "color": "#F5F5DC",
+      "price": 179.99,
+      "discountPercentage": 11.1,
+      "quantity": 10,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["9' x 12'"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Wall Clock",
+  "description": "A stylish wall clock to keep you on schedule while adding a decorative touch to your living room.",
+  "category": "living room",
+  "brand": "Timeless Classics",
+  "price": 39.99,
+  "quantity": 20,
+  "inStock": true,
+  "discountPercentage": 25.0,
+  "totalRatings": 20,
+  "images": [
+    "https://m.media-amazon.com/images/I/81piSL4odtL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81vUOFh7WAL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81sg8D1-oGL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/81piSL4odtL._AC_SL1500_.jpg",
+  "tags": ["living room", "wall clock", "decor"],
+  "variants": [
+    {
+      "sku": "WC001",
+      "size": "24\" diameter",
+      "color": "#C0C0C0",
+      "price": 39.99,
+      "discountPercentage": 25.0,
+      "quantity": 20,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["24\" diameter"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "End Table",
+  "description": "A stylish end table to complement your living room seating ensemble.",
+  "category": "living room",
+  "brand": "FurniCraft",
+  "price": 79.99,
+  "quantity": 15,
+  "inStock": true,
+  "discountPercentage": 12.5,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/51FAiTCFaHL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/81ooybCAONL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81fLkhNzgjS._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/51FAiTCFaHL._AC_SL1000_.jpg",
+  "tags": ["living room", "end table", "furniture"],
+  "variants": [
+    {
+      "sku": "ET001",
+      "size": "24\"W x 24\"D x 24\"H",
+      "color": "#800000",
+      "price": 79.99,
+      "discountPercentage": 12.5,
+      "quantity": 15,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["24\"W x 24\"D x 24\"H"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+
+{
+  "name": "Throw Blanket",
+  "description": "A soft and cozy throw blanket to keep you warm during chilly evenings in the living room.",
+  "category": "living room",
+  "brand": "Cozy Comforts",
+  "price": 49.99,
+  "quantity": 12,
+  "inStock": true,
+  "discountPercentage": 20.0,
+  "totalRatings": 20,
+  "images": [
+    "https://m.media-amazon.com/images/I/617jWhurG3L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/910GNeCqbWL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91CEhbXzZHL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/617jWhurG3L._AC_SL1500_.jpg",
+  "tags": ["living room", "throw blanket", "decor"],
+  "variants": [
+    {
+      "sku": "TB001",
+      "size": "50\" x 60\"",
+      "color": "#000080",
+      "price": 49.99,
+      "discountPercentage": 20.0,
+      "quantity": 12,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["50\" x 60\""],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Floor Pouf",
+  "description": "A versatile floor pouf that serves as both extra seating and a decorative accent in your living room.",
+  "category": "living room",
+  "brand": "Urban Chic",
+  "price": 59.99,
+  "quantity": 15,
+  "inStock": true,
+  "discountPercentage": 16.7,
+  "totalRatings": 20,
+  "images": [
+    "https://m.media-amazon.com/images/I/81O9n81YzoL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81oyvI-+lIL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71RJx2cirnL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/71RJx2cirnL._AC_SL1500_.jpg",
+  "tags": ["living room", "floor pouf", "decor"],
+  "variants": [
+    {
+      "sku": "FP001",
+      "size": "24\" diameter x 12\"H",
+      "color": "#40E0D0",
+      "price": 59.99,
+      "discountPercentage": 16.7,
+      "quantity": 15,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["24\" diameter x 12\"H"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Table Lamp",
+  "description": "A classic table lamp to provide task lighting and enhance the ambiance of your living room.",
+  "category": "living room",
+  "brand": "Luminance",
+  "price": 39.99,
+  "quantity": 15,
+  "inStock": true,
+  "discountPercentage": 25.0,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/71hQXtE51TL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71rCln3BSYL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71CiKr82aFL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/71hQXtE51TL._AC_SL1500_.jpg",
+  "tags": ["living room", "table lamp", "lighting"],
+  "variants": [
+    {
+      "sku": "TL001",
+      "size": "18\"H",
+      "color": "#CD7F32",
+      "price": 39.99,
+      "discountPercentage": 25.0,
+      "quantity": 15,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["18\"H"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Curtains",
+  "description": "A set of elegant curtains to add privacy and style to your living room windows.",
+  "category": "living room",
+  "brand": "Window Wonders",
+  "price": 49.99,
+  "quantity": 12,
+  "inStock": true,
+  "discountPercentage": 20.0,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/71vhA-t8PDL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71uCo-i9jnL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71dXo8myQdL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/71vhA-t8PDL._AC_SL1500_.jpg",
+  "tags": ["living room", "curtains", "window treatment"],
+  "variants": [
+    {
+      "sku": "C001",
+      "size": "84\"H x 52\"W",
+      "color": "#F5F5DC",
+      "price": 49.99,
+      "discountPercentage": 20.0,
+      "quantity": 12,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["84\"H x 52\"W"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Wall Shelf",
+  "description": "A simple and functional wall shelf to display decorative items in your living room.",
+  "category": "living room",
+  "brand": "ShelfMaster",
+  "price": 34.99,
+  "quantity": 15,
+  "inStock": true,
+  "discountPercentage": 14.3,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/71OGzoeiq-L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71AVbRUl52L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81QLwLzIzuL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/71OGzoeiq-L._AC_SL1500_.jpg",
+  "tags": ["living room", "wall shelf", "decor"],
+  "variants": [
+    {
+      "sku": "WS001",
+      "size": "24\"W x 6\"D x 8\"H",
+      "color": "#FFFFFF",
+      "price": 34.99,
+      "discountPercentage": 14.3,
+      "quantity": 15,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["24\"W x 6\"D x 8\"H"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Plant Stand",
+  "description": "A sleek plant stand to showcase your favorite houseplants in your living room.",
+  "category": "living room",
+  "brand": "Botanical Accents",
+  "price": 24.99,
+  "quantity": 12,
+  "inStock": true,
+  "discountPercentage": 20.0,
+  "totalRatings": 15,
+  "images": [
+    "https://m.media-amazon.com/images/I/71CwyNNlcrL._AC_SX679_.jpg",
+    "https://m.media-amazon.com/images/I/71RW2losxeL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91b+wnQ8JdL._AC_SL1500_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/71CwyNNlcrL._AC_SX679_.jpg",
+  "tags": ["living room", "plant stand", "decor"],
+  "variants": [
+    {
+      "sku": "PS001",
+      "size": "30\"H x 12\"D",
+      "color": "#000000",
+      "price": 24.99,
+      "discountPercentage": 20.0,
+      "quantity": 12,
+      "inStock": true,
+      "image": "path/to/image1_variant1.jpg"
+    }
+  ],
+  "sizes": ["30\"H x 12\"D"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
+},
+{
+  "name": "Memory Foam Mattress",
+  "description": "Experience ultimate comfort and support with our premium memory foam mattress.",
+  "category": "mattress",
+  "brand": "Cloud Comfort",
+  "price": 499.99,
+  "quantity": 15,
+  "inStock": true,
+  "discountPercentage": 10.0,
+  "totalRatings": 50,
+  "images": [
+    "https://m.media-amazon.com/images/I/81XEwFXr8EL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61K8Z8ykeNL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81eqsAzQfEL._AC_SX569_.jpg"
+  ],
+  "thumbnail": "https://m.media-amazon.com/images/I/81XEwFXr8EL._AC_SL1500_.jpg",
+  "tags": ["mattress", "memory foam", "comfort"],
+  "variants": [
+    {
+      "sku": "MM001",
+      "size": "Queen",
+      "color": "#FFFFFF",
+      "price": 499.99,
+      "discountPercentage": 10.0,
+      "quantity": 15,
+      "inStock": true,
+      "image": "https://m.media-amazon.com/images/I/81eqsAzQfEL._AC_SX569_.jpg"
+    }
+  ],
+  "sizes": ["Queen"],
+  "reviews": [],
+  "createdAt": "2024-06-06T10:00:00Z",
+  "updatedAt": "2024-06-06T10:00:00Z"
 }
-
-
 ]

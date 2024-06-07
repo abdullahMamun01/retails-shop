@@ -1,5 +1,6 @@
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
+import { redirect } from "next/navigation";
 
 export  const authConfig = {
   providers: [
@@ -27,7 +28,9 @@ export  const authConfig = {
             throw new Error("failed to fetch");
           }
 
+
           if (user) {
+            
             return user;
           } else {
             return null;

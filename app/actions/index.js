@@ -2,7 +2,7 @@
 
 import { auth, signIn } from "@/auth";
 import { updateAddress } from "@/database/queries";
-import { loadStripe } from "@stripe/stripe-js";
+
 import { revalidatePath } from "next/cache";
 
 export async function login(formData) {
@@ -12,6 +12,7 @@ export async function login(formData) {
       password: formData.get("password"),
       redirect: false,
     });
+    
     return response;
   } catch (error) {
     console.log(error.message);
