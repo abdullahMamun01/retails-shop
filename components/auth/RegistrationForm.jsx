@@ -56,7 +56,7 @@ export default function RegistrationForm() {
                             name="fullName"
                             label="fullName"
                             placeholder="enter your fullName"
-                            // description="password is required! "
+                        
                             inputType="text"
                             formControl={form.control}
                         />
@@ -66,7 +66,7 @@ export default function RegistrationForm() {
                             name="email"
                             label="email"
                             placeholder="enter your email"
-                            // description="password is required! "
+                       
                             inputType="email"
                             formControl={form.control}
                         />

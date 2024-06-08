@@ -9,14 +9,14 @@ export default async function CategoryList() {
     const categoryList = await getProductCategoryList()
  
     return (
-        <div className="container py-16">
+        <div className="container py-8">
             <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">shop by category</h2>
             <div className="grid grid-cols-3 gap-3">
                 {
                     categoryList.map(category => (
                         <Fragment key={category?._id}>
-                            <div className="relative rounded-sm overflow-hidden group">
-                                <Image src={category?.thumbnail} width='200' height='200' alt="category 1" className="w-full" />
+                            <div className="relative rounded-sm overflow-hidden group ">
+                                <Image src={category?.thumbnail} width='4000' height='4000' alt="category 1" className="w-full md:h-[300px]" />
 
                                 <Link href={{ pathname: '/shop', query: { category: category.categoryName } }}
 
