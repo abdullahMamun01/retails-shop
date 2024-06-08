@@ -6,10 +6,11 @@ import { updateAddress } from "@/database/queries";
 import { revalidatePath } from "next/cache";
 
 export async function login(formData) {
+  const {email ,password} = formData
   try {
     const response = await signIn("credentials", {
-      email: formData.get("email"),
-      password: formData.get("password"),
+      email,
+      password,
       redirect: false,
     });
     

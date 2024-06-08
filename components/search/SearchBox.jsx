@@ -68,7 +68,7 @@ export default function SearchBox() {
                     onFocus={() => setVisible(true)}
                     onBlur={() => setVisible(false)}
                     onChange={(e) => handleChange(e)}
-                    autocomplete="off" 
+                    autoComplete="off" 
                 />
                 <button
                     onClick={doSearch}

@@ -12,6 +12,7 @@ export  const authConfig = {
         password: {},
       },
       async authorize(credentials) {
+ 
         try {
           const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/auth/login`, {
             method: "POST",
@@ -24,6 +25,7 @@ export  const authConfig = {
             }),
           });
           const user = await res.json();
+          console.log(user , ' user')
           if (!res.ok) {
             throw new Error("failed to fetch");
           }

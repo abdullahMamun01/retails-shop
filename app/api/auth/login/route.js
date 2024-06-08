@@ -12,7 +12,7 @@ export async function POST(req) {
   const { email, password } = await req.json();
   try {
     const user = await UserModel.findOne({ email: email }).lean();
-    
+    console.log({user})
 
     if (!user) {
       return NextResponse.json(
