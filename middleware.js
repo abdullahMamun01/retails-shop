@@ -7,7 +7,6 @@ const publicRoutes = [
   '/register',
   '/shop' ,
   '/auth/callback/google',
-  '/'
   
 ]
 ;
@@ -17,7 +16,7 @@ export default auth((req) => {
   const { nextUrl } = req;
 
   const isAuthenticate = !!req.auth;
- 
+  console.log({isAuthenticate})
 
   const isPublic =
     publicRoutes.find((route) => nextUrl.pathname.startsWith(route)) ||
@@ -27,7 +26,6 @@ export default auth((req) => {
   if (!isAuthenticate && !isPublic)
     return Response.redirect(new URL("/login", nextUrl));
 
-  else NextResponse.next()
 });
 
 export const config = {
