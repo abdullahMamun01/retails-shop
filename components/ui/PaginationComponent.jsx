@@ -16,7 +16,7 @@ import { useState } from "react"
 
 
 
-export default function PaginationComponent({ totalPage = 10 }) {
+export default function PaginationComponent({ totalPage}) {
 
     const { query, setQuery } = useQueryParams("page")
     const searchParam = useSearchParams()
@@ -26,7 +26,7 @@ export default function PaginationComponent({ totalPage = 10 }) {
     }
 
     const handleNexPage = () => {
-        const currentPage = Number(query.toString()) || 1
+        const currentPage = Number(searchParam.get("page")) || 2
         if (currentPage < totalPage) {
             setQuery([currentPage + 1])
         }
@@ -34,7 +34,7 @@ export default function PaginationComponent({ totalPage = 10 }) {
 
 
     const handlePrevPage = () => {
-        const currentPage = Number(query.toString()) || 1
+        const currentPage = Number(searchParam.get("page")) || 1
         if (currentPage > 1) {
             setQuery([currentPage - 1])
         }

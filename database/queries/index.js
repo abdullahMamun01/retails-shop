@@ -85,12 +85,13 @@ export const getAllProducts = async ({ category, min, max, search ,page=1, limit
     filter.price = { ...filter.price, $lte: Number(max) };
   }
   const totalPage  = await getTotalPage(Number(limit))
-  const skip =( Number(page) - 1) * totalPage
+  const skip =( Number(page) - 1) * Number(limit)
   
   const products = await ProductModel.find(filter)
   .skip(skip)
   .limit(limit)
-  .sort({ price: 1 }).lean();
+  .sort({ price: 1 })
+  .lean();
 
 
   return replaceMongoIdInArray(products);
