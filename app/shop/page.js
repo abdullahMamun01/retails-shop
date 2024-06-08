@@ -18,8 +18,10 @@ export default async function Shop({searchParams}) {
   const min = searchParams.min 
   const max = searchParams.max 
   const search = decodeQueryParameter(searchParams?.search)
-  const allProducts = await getAllProducts({category,min,max ,search })
+  const page = decodeQueryParameter(searchParams?.page) || 1
 
+  const allProducts = await getAllProducts({category,min,max ,search ,page})
+ 
   return (
     <>
       <div className="col-span-1 bg-white px-4 pb-6 shadow rounded overflow-hidden hidden md:block">

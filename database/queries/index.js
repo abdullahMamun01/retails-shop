@@ -57,7 +57,7 @@ export const getRelatedProducts = async (productId, category, tags) => {
 };
 
 //get all product list from database
-export const getAllProducts = async ({ category, min, max, search ,page=1, limit=1}) => {
+export const getAllProducts = async ({ category, min, max, search ,page=1, limit=9}) => {
   await dbConnect();
 
   const filter = {};
@@ -84,11 +84,25 @@ export const getAllProducts = async ({ category, min, max, search ,page=1, limit
   if (max) {
     filter.price = { ...filter.price, $lte: Number(max) };
   }
+  const totalPage  = await getTotalPage(Number(limit))
+  const skip =( Number(page) - 1) * totalPage
+  
+  const products = await ProductModel.find(filter)
+  .skip(skip)
+  .limit(limit)
+  .sort({ price: 1 }).lean();
 
-  const products = await ProductModel.find(filter).sort({ price: 1 }).lean();
 
   return replaceMongoIdInArray(products);
 };
+
+
+//get total product length
+export async function getTotalPage(limit = 9){
+  const totalProducts = await ProductModel.countDocuments()
+  const totalPage = Math.ceil(totalProducts / limit)
+  return totalPage
+}
 
 // product category list
 export const getProductCategoryList = async () => {
