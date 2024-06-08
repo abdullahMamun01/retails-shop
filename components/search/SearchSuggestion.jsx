@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Card } from '../ui/card'
 import {
@@ -16,15 +17,16 @@ export default function SearchSuggestion({ suggest }) {
             <Command>
 
                 <CommandList>
-                    <CommandGroup  heading="Suggestions" className="hover:text-sky-600">
+                    <CommandGroup heading="Suggestions" className="hover:text-sky-600">
 
                         {
-                            suggest?.map(({ _id, name }) => <CommandItem key={_id}>
-                                <Link href={`/product/${_id}`}>
-                                    {name}
-                                </Link>
-
-                            </CommandItem>)
+                            suggest?.map(({ _id, name }) =>
+                                <CommandItem key={_id} className="py-2">
+                                    <Link href={`/product/${_id}`} className='w-full h-full block'>
+                                        {name}
+                                    </Link>
+                                </CommandItem>
+                            )
                         }
 
                     </CommandGroup>

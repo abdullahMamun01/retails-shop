@@ -57,8 +57,9 @@ export const getRelatedProducts = async (productId, category, tags) => {
 };
 
 //get all product list from database
-export const getAllProducts = async ({ category, min, max, search }) => {
+export const getAllProducts = async ({ category, min, max, search ,page=1, limit=1}) => {
   await dbConnect();
+
   const filter = {};
   if (search) {
     const regex = new RegExp(search, "i");
@@ -69,6 +70,7 @@ export const getAllProducts = async ({ category, min, max, search }) => {
       { brand: { $regex: search } },
     ];
   }
+  
   if (category) {
     // Assuming `category` is an array of categories
     // filter.category = { $in: category.split("|") };
@@ -117,7 +119,6 @@ export const getProductCategoryList = async () => {
 
 export const updateAddress = async (fieldName, userId, address) => {
   const user = await UserModel.findById(userId);
-  console.log({ user });
   if (!user) {
     throw new Error("user not found");
   }
@@ -135,6 +136,7 @@ export async function getUser(userId) {
   const user = await UserModel.findById(userId)
     .select({ name: 1, email: 1, billing: 1, shipping: 1, phoneNumber: 1 })
     .lean();
+
   if (!user) return null;
   return replaceMongoIdInObject(user);
 }

@@ -35,7 +35,6 @@ export default function SocialShare() {
                     <DialogDescription>
                         Anyone who has this link will be able to view this.
                         <div className="my-4 ">
-
                             <SocialList />
                         </div>
                     </DialogDescription>

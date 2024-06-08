@@ -29,10 +29,10 @@ export default function BreadCrump() {
     <div className="container py-4 flex items-center gap-3 my-2">
       <Breadcrumb className="list-none">
 
-        {breadcrumbs.slice(1).map((breadcrumb, index) => (
+        {breadcrumbs.map((breadcrumb, index) => (
           <BreadcrumbItem key={index}>
             {
-              index === breadcrumbs.length - 2 ?
+              index === breadcrumbs.length - 1 ?
                 <BreadcrumbPage className="text-gray-600 font-bold">{breadcrumb.breadcrumb}</BreadcrumbPage>
                 :
                 <>

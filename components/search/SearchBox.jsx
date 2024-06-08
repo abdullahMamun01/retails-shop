@@ -32,11 +32,12 @@ export default function SearchBox() {
 
     useEffect(() => {
         const getSearchSuggest = async () => {
-            const response = await fetch(`http://localhost:3000/api/suggest?query=${debounceValue}`)
+            const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/suggest?query=${debounceValue}`)
             if (!response.ok) {
                 throw new Error("failed to fetch")
             }
             const suggest = await response.json()
+            console.log({suggest})
             setSuggestions(suggest)
         }
 
@@ -67,6 +68,7 @@ export default function SearchBox() {
                     onFocus={() => setVisible(true)}
                     onBlur={() => setVisible(false)}
                     onChange={(e) => handleChange(e)}
+                    autocomplete="off" 
                 />
                 <button
                     onClick={doSearch}

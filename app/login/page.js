@@ -11,7 +11,7 @@ export default async function LoginPage() {
 
   if(session?.user?.name){
     redirect('/shop')
-    return
+    
   }
 
 
