@@ -14,9 +14,10 @@ import { Form } from '../ui/form'
 import InputControl from '../form/InputControl'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
-
+import {  useFormStatus } from 'react-dom'
 export default function LoginForm() {
     const router = useRouter()
+    const { pending } = useFormStatus()
     const form = useForm({
         resolver: zodResolver(loginSchema),
         defaultValues: {
@@ -28,34 +29,34 @@ export default function LoginForm() {
 
     const onSubmit = async (formData) => {
 
-       try {
-        const response = await login(formData);
+        try {
+            const response = await login(formData);
 
-        if (!!response.error) {
-            toast.error('failed to login')
-        } else {
-            toast.success('login success')
-            router.push('/shop')
-            router.refresh()
+            if (!!response.error) {
+                toast.error('failed to login')
+            } else {
+                toast.success('login success')
+                router.push('/shop')
+                router.refresh()
 
 
+            }
+        } catch (error) {
+            console.log(error)
+            toast.error(error)
         }
-       } catch (error) {
-        console.log(error)
-        toast.error(error)
-       }
 
     }
 
     return (
         <Form  {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)}>
+            <form onSubmit={form.handleSubmit(onSubmit)} action=''>
                 <div className="space-y-2">
                     <InputControl
                         name="email"
                         label="email"
                         placeholder="enter your email"
-                        description="email is required! "
+                        // description="email is required! "
                         inputType="email"
                         formControl={form.control}
                     />
@@ -64,23 +65,10 @@ export default function LoginForm() {
                         name="password"
                         label="password"
                         placeholder="enter your password"
-                        description="password is required! "
+                        // description="password is required! "
                         inputType="password"
                         formControl={form.control}
                     />
-
-                    {/* <div>
-                        <label htmlFor="email" className="text-gray-600 mb-2 block">Email address</label>
-                        <input type="email" name="email" id="email"
-                            className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                            placeholder="youremail.@domain.com" />
-                    </div> */}
-                    {/* <div>
-                        <label htmlFor="password" className="text-gray-600 mb-2 block">Password</label>
-                        <input type="password" name="password" id="password"
-                            className="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
-                            placeholder="*******" />
-                    </div> */}
                 </div>
                 <div className="flex items-center justify-between mt-6">
                     <div className="flex items-center">
@@ -91,9 +79,11 @@ export default function LoginForm() {
                     <a href="#" className="text-primary">Forgot password</a>
                 </div>
                 <div className="mt-4">
-                    <button type="submit"
+                    <button type="submit" disabled={pending}
+                        className={`block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium ${pending ? 'opacity-50 cursor-not-allowed' : ''}`}>
+                        {pending ? 'Submitting...' : 'Login'}
+                    </button>
 
-                        className="block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">Login</button>
                 </div>
             </form>
         </Form>
