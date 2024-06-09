@@ -43,7 +43,7 @@ $RECYCLE.BIN/
 .lock-wscript
 
 # dotenv environment variables file
-.env
+
 
 # npm debug log
 npm-debug.log*

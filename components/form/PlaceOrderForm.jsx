@@ -98,6 +98,7 @@ function PlaceOrderForm() {
         });
         if (!response.ok) {
             throw Error("payment error");
+            setPending(false)
         }
         const session = await response.json();
         //now we can call api request for payment
