@@ -36,7 +36,7 @@ export default async function Shop({ searchParams }) {
 
       <div className="col-span-3">
         <Suspense fallback={<Spinner size="large" />}>
-          <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-6">
             {allProducts?.map((pd) => (
               <ProductCart key={pd.id} product={pd} />
             ))}
